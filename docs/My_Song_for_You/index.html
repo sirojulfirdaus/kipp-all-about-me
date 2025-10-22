@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>2&nbsp; UTS-2 My Songs for You – Sirojul Firdaus</title>
+<title>UTS-2 My Songs for You – Sirojul Firdaus</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -39,10 +39,14 @@ ul.task-list li input[type="checkbox"] {
 <script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="../site_libs/quarto-html/anchor.min.js"></script>
 <link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../site_libs/quarto-html/quarto-syntax-highlighting-7b89279ff1a6dce999919e0e67d4d9ec.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-7b89279ff1a6dce999919e0e67d4d9ec.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-dark-707d8167ce6003fca903bfe2be84ab7f.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-7b89279ff1a6dce999919e0e67d4d9ec.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
 <script src="../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../site_libs/bootstrap/bootstrap-70a47bd5681a7291082a5b9f83d58762.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-d475e5e4bb9e8daf66e93dc04089f438.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-dark-4e6e399427c0160df553c1eb032d56a7.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-d475e5e4bb9e8daf66e93dc04089f438.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "sidebar",
   "copy-button": false,
@@ -74,7 +78,169 @@ ul.task-list li input[type="checkbox"] {
 
 </head>
 
-<body class="nav-sidebar floating quarto-light">
+<body class="nav-sidebar floating quarto-light"><script id="quarto-html-before-body" type="application/javascript">
+    const toggleBodyColorMode = (bsSheetEl) => {
+      const mode = bsSheetEl.getAttribute("data-mode");
+      const bodyEl = window.document.querySelector("body");
+      if (mode === "dark") {
+        bodyEl.classList.add("quarto-dark");
+        bodyEl.classList.remove("quarto-light");
+      } else {
+        bodyEl.classList.add("quarto-light");
+        bodyEl.classList.remove("quarto-dark");
+      }
+    }
+    const toggleBodyColorPrimary = () => {
+      const bsSheetEl = window.document.querySelector("link#quarto-bootstrap:not([rel=disabled-stylesheet])");
+      if (bsSheetEl) {
+        toggleBodyColorMode(bsSheetEl);
+      }
+    }
+    const setColorSchemeToggle = (alternate) => {
+      const toggles = window.document.querySelectorAll('.quarto-color-scheme-toggle');
+      for (let i=0; i < toggles.length; i++) {
+        const toggle = toggles[i];
+        if (toggle) {
+          if (alternate) {
+            toggle.classList.add("alternate");
+          } else {
+            toggle.classList.remove("alternate");
+          }
+        }
+      }
+    };
+    const toggleColorMode = (alternate) => {
+      // Switch the stylesheets
+      const primaryStylesheets = window.document.querySelectorAll('link.quarto-color-scheme:not(.quarto-color-alternate)');
+      const alternateStylesheets = window.document.querySelectorAll('link.quarto-color-scheme.quarto-color-alternate');
+      manageTransitions('#quarto-margin-sidebar .nav-link', false);
+      if (alternate) {
+        // note: dark is layered on light, we don't disable primary!
+        enableStylesheet(alternateStylesheets);
+        for (const sheetNode of alternateStylesheets) {
+          if (sheetNode.id === "quarto-bootstrap") {
+            toggleBodyColorMode(sheetNode);
+          }
+        }
+      } else {
+        disableStylesheet(alternateStylesheets);
+        enableStylesheet(primaryStylesheets)
+        toggleBodyColorPrimary();
+      }
+      manageTransitions('#quarto-margin-sidebar .nav-link', true);
+      // Switch the toggles
+      setColorSchemeToggle(alternate)
+      // Hack to workaround the fact that safari doesn't
+      // properly recolor the scrollbar when toggling (#1455)
+      if (navigator.userAgent.indexOf('Safari') > 0 && navigator.userAgent.indexOf('Chrome') == -1) {
+        manageTransitions("body", false);
+        window.scrollTo(0, 1);
+        setTimeout(() => {
+          window.scrollTo(0, 0);
+          manageTransitions("body", true);
+        }, 40);
+      }
+    }
+    const disableStylesheet = (stylesheets) => {
+      for (let i=0; i < stylesheets.length; i++) {
+        const stylesheet = stylesheets[i];
+        stylesheet.rel = 'disabled-stylesheet';
+      }
+    }
+    const enableStylesheet = (stylesheets) => {
+      for (let i=0; i < stylesheets.length; i++) {
+        const stylesheet = stylesheets[i];
+        if(stylesheet.rel !== 'stylesheet') { // for Chrome, which will still FOUC without this check
+          stylesheet.rel = 'stylesheet';
+        }
+      }
+    }
+    const manageTransitions = (selector, allowTransitions) => {
+      const els = window.document.querySelectorAll(selector);
+      for (let i=0; i < els.length; i++) {
+        const el = els[i];
+        if (allowTransitions) {
+          el.classList.remove('notransition');
+        } else {
+          el.classList.add('notransition');
+        }
+      }
+    }
+    const isFileUrl = () => {
+      return window.location.protocol === 'file:';
+    }
+    const hasAlternateSentinel = () => {
+      let styleSentinel = getColorSchemeSentinel();
+      if (styleSentinel !== null) {
+        return styleSentinel === "alternate";
+      } else {
+        return false;
+      }
+    }
+    const setStyleSentinel = (alternate) => {
+      const value = alternate ? "alternate" : "default";
+      if (!isFileUrl()) {
+        window.localStorage.setItem("quarto-color-scheme", value);
+      } else {
+        localAlternateSentinel = value;
+      }
+    }
+    const getColorSchemeSentinel = () => {
+      if (!isFileUrl()) {
+        const storageValue = window.localStorage.getItem("quarto-color-scheme");
+        return storageValue != null ? storageValue : localAlternateSentinel;
+      } else {
+        return localAlternateSentinel;
+      }
+    }
+    const toggleGiscusIfUsed = (isAlternate, darkModeDefault) => {
+      const baseTheme = document.querySelector('#giscus-base-theme')?.value ?? 'light';
+      const alternateTheme = document.querySelector('#giscus-alt-theme')?.value ?? 'dark';
+      let newTheme = '';
+      if(authorPrefersDark) {
+        newTheme = isAlternate ? baseTheme : alternateTheme;
+      } else {
+        newTheme = isAlternate ? alternateTheme : baseTheme;
+      }
+      const changeGiscusTheme = () => {
+        // From: https://github.com/giscus/giscus/issues/336
+        const sendMessage = (message) => {
+          const iframe = document.querySelector('iframe.giscus-frame');
+          if (!iframe) return;
+          iframe.contentWindow.postMessage({ giscus: message }, 'https://giscus.app');
+        }
+        sendMessage({
+          setConfig: {
+            theme: newTheme
+          }
+        });
+      }
+      const isGiscussLoaded = window.document.querySelector('iframe.giscus-frame') !== null;
+      if (isGiscussLoaded) {
+        changeGiscusTheme();
+      }
+    };
+    const authorPrefersDark = false;
+    const darkModeDefault = authorPrefersDark;
+      document.querySelector('link#quarto-text-highlighting-styles.quarto-color-scheme-extra').rel = 'disabled-stylesheet';
+      document.querySelector('link#quarto-bootstrap.quarto-color-scheme-extra').rel = 'disabled-stylesheet';
+    let localAlternateSentinel = darkModeDefault ? 'alternate' : 'default';
+    // Dark / light mode switch
+    window.quartoToggleColorScheme = () => {
+      // Read the current dark / light value
+      let toAlternate = !hasAlternateSentinel();
+      toggleColorMode(toAlternate);
+      setStyleSentinel(toAlternate);
+      toggleGiscusIfUsed(toAlternate, darkModeDefault);
+      window.dispatchEvent(new Event('resize'));
+    };
+    // Switch to dark mode if need be
+    if (hasAlternateSentinel()) {
+      toggleColorMode(true);
+    } else {
+      toggleColorMode(false);
+    }
+  </script>
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
@@ -83,7 +249,7 @@ ul.task-list li input[type="checkbox"] {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../My_Song_for_You/index.html"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">UTS-2 My Songs for You</span></a></li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../All_About_me/index.html">Tugas Tengah Semester (UTS)</a></li><li class="breadcrumb-item"><a href="../My_Song_for_You/index.html"><span class="chapter-title">UTS-2 My Songs for You</span></a></li></ol></nav>
         <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
       <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
@@ -101,6 +267,9 @@ ul.task-list li input[type="checkbox"] {
       </a>
     <div class="sidebar-title mb-0 py-0">
       <a href="../">Sirojul Firdaus</a> 
+        <div class="sidebar-tools-main">
+  <a href="" class="quarto-color-scheme-toggle quarto-navigation-tool  px-1" onclick="window.quartoToggleColorScheme(); return false;" title="Toggle dark mode"><i class="bi"></i></a>
+</div>
     </div>
       </div>
         <div class="mt-2 flex-shrink-0 align-items-center">
@@ -112,106 +281,130 @@ ul.task-list li input[type="checkbox"] {
     <ul class="list-unstyled mt-1">
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../index.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Salam Hangat</span></a>
+  <a href="../index.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Salam Hangat</span></a>
   </div>
 </li>
-        <li class="sidebar-item">
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="true">
+ <span class="menu-text">Tugas Tengah Semester (UTS)</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="true" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../All_About_me/index.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">UTS-1 All About Me</span></span></a>
+  <a href="../All_About_me/index.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">UTS-1 All About Me</span></a>
   </div>
 </li>
-        <li class="sidebar-item">
+          <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../My_Song_for_You/index.html" class="sidebar-item-text sidebar-link active">
- <span class="menu-text"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">UTS-2 My Songs for You</span></span></a>
+  <a href="../My_Song_for_You/index.html" class="sidebar-item-text sidebar-link active"><span class="chapter-title">UTS-2 My Songs for You</span></a>
   </div>
 </li>
-        <li class="sidebar-item">
+          <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../My_Stories_for_You/index.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">UTS-3 My Stories for You</span></span></a>
+  <a href="../My_Stories_for_You/index.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">UTS-3 My Stories for You</span></a>
   </div>
 </li>
-        <li class="sidebar-item">
+          <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../My_Shapes/index.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">UTS-4 My SHAPE (Spiritual Gifts, Heart, Abilities, Personality, Experiences)</span></span></a>
+  <a href="../My_Shapes/index.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">UTS-4 My SHAPE (Spiritual Gifts, Heart, Abilities, Personality, Experiences)</span></a>
   </div>
 </li>
-        <li class="sidebar-item">
+          <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../My_Personal_Reviews/index.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">5</span>&nbsp; <span class="chapter-title">UTS-5 My Personal Reviews</span></span></a>
+  <a href="../My_Personal_Reviews/index.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">UTS-5 My Personal Reviews</span></a>
   </div>
 </li>
-        <li class="sidebar-item">
+      </ul>
+  </li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" role="navigation" aria-expanded="false">
+ <span class="menu-text">Tugas Akhir Semester (UAS)</span></a>
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" role="navigation" aria-expanded="false" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-2" class="collapse list-unstyled sidebar-section depth1 ">  
+          <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../My_Concepts/index.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">6</span>&nbsp; <span class="chapter-title">UAS-1 My Concepts</span></span></a>
+  <a href="../My_Concepts/index.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">UAS-1 My Concepts</span></a>
   </div>
 </li>
-        <li class="sidebar-item">
+          <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../My_Opinions/index.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">7</span>&nbsp; <span class="chapter-title">UAS-3 My Opinions</span></span></a>
+  <a href="../My_Opinions/index.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">UAS-3 My Opinions</span></a>
   </div>
 </li>
-        <li class="sidebar-item">
+          <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../My_Innovations/index.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">8</span>&nbsp; <span class="chapter-title">UAS-3 My Innovations</span></span></a>
+  <a href="../My_Innovations/index.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">UAS-3 My Innovations</span></a>
   </div>
 </li>
-        <li class="sidebar-item">
+          <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../My_Knowledge/index.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">9</span>&nbsp; <span class="chapter-title">UAS-4 My Knowledge</span></span></a>
+  <a href="../My_Knowledge/index.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">UAS-4 My Knowledge</span></a>
   </div>
 </li>
-        <li class="sidebar-item">
+          <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../My_Professional_Reviews/index.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">10</span>&nbsp; <span class="chapter-title">UAS-5 My Professional Reviews</span></span></a>
+  <a href="../My_Professional_Reviews/index.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">UAS-5 My Professional Reviews</span></a>
   </div>
 </li>
-        <li class="sidebar-item">
+      </ul>
+  </li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" role="navigation" aria-expanded="false">
+ <span class="menu-text">Penutup</span></a>
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" role="navigation" aria-expanded="false" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-3" class="collapse list-unstyled sidebar-section depth1 ">  
+          <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../summary.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">11</span>&nbsp; <span class="chapter-title">Summary</span></span></a>
+  <a href="../summary.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Summary</span></a>
   </div>
 </li>
-        <li class="sidebar-item">
+          <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../references.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">References</span></a>
   </div>
 </li>
+      </ul>
+  </li>
     </ul>
     </div>
-</nav>
+<div class="quarto-sidebar-footer"><div class="sidebar-footer-item">
+<p>© 2025 Sirojul Firdaus</p>
+</div></div></nav>
 <div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
         <nav id="TOC" role="doc-toc" class="toc-active">
-    <h2 id="toc-title">Table of contents</h2>
+    <h2 id="toc-title">Di halaman ini</h2>
    
   <ul>
-  <li><a href="#sebuah-lagu-yang-mengingatkan" id="toc-sebuah-lagu-yang-mengingatkan" class="nav-link active" data-scroll-target="#sebuah-lagu-yang-mengingatkan"><span class="header-section-number">2.1</span> Sebuah Lagu yang Mengingatkan</a></li>
-  <li><a href="#masa-yang-penuh-ritme" id="toc-masa-yang-penuh-ritme" class="nav-link" data-scroll-target="#masa-yang-penuh-ritme"><span class="header-section-number">2.2</span> Masa yang Penuh Ritme</a></li>
-  <li><a href="#antara-peluang-dan-keberanian" id="toc-antara-peluang-dan-keberanian" class="nav-link" data-scroll-target="#antara-peluang-dan-keberanian"><span class="header-section-number">2.3</span> Antara Peluang dan Keberanian</a></li>
-  <li><a href="#sebuah-lagu-sebuah-ingatan" id="toc-sebuah-lagu-sebuah-ingatan" class="nav-link" data-scroll-target="#sebuah-lagu-sebuah-ingatan"><span class="header-section-number">2.4</span> Sebuah Lagu, Sebuah Ingatan</a></li>
-  <li><a href="#penutup" id="toc-penutup" class="nav-link" data-scroll-target="#penutup"><span class="header-section-number">2.5</span> Penutup</a></li>
+  <li><a href="#sebuah-lagu-yang-mengingatkan" id="toc-sebuah-lagu-yang-mengingatkan" class="nav-link active" data-scroll-target="#sebuah-lagu-yang-mengingatkan">Sebuah Lagu yang Mengingatkan</a></li>
+  <li><a href="#masa-yang-penuh-ritme" id="toc-masa-yang-penuh-ritme" class="nav-link" data-scroll-target="#masa-yang-penuh-ritme">Masa yang Penuh Ritme</a></li>
+  <li><a href="#antara-peluang-dan-keberanian" id="toc-antara-peluang-dan-keberanian" class="nav-link" data-scroll-target="#antara-peluang-dan-keberanian">Antara Peluang dan Keberanian</a></li>
+  <li><a href="#sebuah-lagu-sebuah-ingatan" id="toc-sebuah-lagu-sebuah-ingatan" class="nav-link" data-scroll-target="#sebuah-lagu-sebuah-ingatan">Sebuah Lagu, Sebuah Ingatan</a></li>
+  <li><a href="#penutup" id="toc-penutup" class="nav-link" data-scroll-target="#penutup">Penutup</a></li>
   </ul>
 </nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
-<header id="title-block-header" class="quarto-title-block default">
+
+<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../All_About_me/index.html">Tugas Tengah Semester (UTS)</a></li><li class="breadcrumb-item"><a href="../My_Song_for_You/index.html"><span class="chapter-title">UTS-2 My Songs for You</span></a></li></ol></nav>
 <div class="quarto-title">
-<h1 class="title"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">UTS-2 My Songs for You</span></h1>
+<h1 class="title"><span class="chapter-title">UTS-2 My Songs for You</span></h1>
 </div>
 
 
@@ -231,30 +424,30 @@ ul.task-list li input[type="checkbox"] {
 <p>NIKI - Take A Chance With Me</p>
 <div class="quarto-video ratio ratio-16x9"><iframe data-external="1" src="https://www.youtube.com/embed/iygXgP2nOF4?si=X9AWsynRQbwA8Wl5" title="" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe></div>
 <p>Lirik sudah ada di video.</p>
-<section id="sebuah-lagu-yang-mengingatkan" class="level2" data-number="2.1">
-<h2 data-number="2.1" class="anchored" data-anchor-id="sebuah-lagu-yang-mengingatkan"><span class="header-section-number">2.1</span> Sebuah Lagu yang Mengingatkan</h2>
+<section id="sebuah-lagu-yang-mengingatkan" class="level2">
+<h2 class="anchored" data-anchor-id="sebuah-lagu-yang-mengingatkan">Sebuah Lagu yang Mengingatkan</h2>
 <p>Ada lagu yang dulu sering muncul entah dari mana. Kadang lewat playlist acak, kadang lewat Locket yang kami pakai untuk saling kirim foto. Judulnya Take a Chance with Me — lagu lembut yang, bagi sebagian orang, mungkin hanya tentang cinta. Tapi bagiku, lagu itu terdengar seperti perjalanan; tentang keberanian kecil untuk melangkah meski tak tahu akan sampai di mana.</p>
 <p>Baitnya yang berbicara tentang seseorang yang berusaha menyembunyikan perasaannya, atau tentang dua orang yang sama-sama takut mengaku, bukan hanya tentang hubungan romantis. Aku mendengarnya sebagai metafora dari perjuangan bersama — dua orang (atau lebih) yang saling percaya dalam diam, saling mendorong dalam letih, dan saling memahami meski tanpa banyak kata.</p>
 </section>
-<section id="masa-yang-penuh-ritme" class="level2" data-number="2.2">
-<h2 data-number="2.2" class="anchored" data-anchor-id="masa-yang-penuh-ritme"><span class="header-section-number">2.2</span> Masa yang Penuh Ritme</h2>
+<section id="masa-yang-penuh-ritme" class="level2">
+<h2 class="anchored" data-anchor-id="masa-yang-penuh-ritme">Masa yang Penuh Ritme</h2>
 <p>Lagu itu sering muncul di masa aku gap year — masa di mana setiap hari seperti latihan kesabaran. Kami belajar dari pagi sampai malam; kadang diisi tawa, kadang kelelahan. Ada momen kami kelelahan menghitung peluang di atas kertas, tapi tetap percaya peluang hidup selalu bisa diubah dengan usaha.</p>
 <p>Yang satu lebih jago bahasa, yang lain lebih paham logika. Kami saling isi, saling ajar. Kadang serius, kadang saling mengejek soal rumus. Pernah juga satu waktu aku sedikit (beneran seikit) lebih keras menjelaskan konsep matematika — niatnya baik, nadanya saja yang salah. Hasilnya? air mata turun sebelum jawaban benar ditemukan. Tapi justru dari situ aku belajar: pemahaman tanpa empati itu seperti hitungan tanpa makna.</p>
 <p>Dan setiap kali lagu itu muncul lagi, aku seperti diingatkan betapa berharganya masa itu — masa di mana ketegangan, tawa, dan mimpi bercampur jadi satu.</p>
 </section>
-<section id="antara-peluang-dan-keberanian" class="level2" data-number="2.3">
-<h2 data-number="2.3" class="anchored" data-anchor-id="antara-peluang-dan-keberanian"><span class="header-section-number">2.3</span> Antara Peluang dan Keberanian</h2>
+<section id="antara-peluang-dan-keberanian" class="level2">
+<h2 class="anchored" data-anchor-id="antara-peluang-dan-keberanian">Antara Peluang dan Keberanian</h2>
 <p>Kalimat paling kuingat dari lagu itu adalah bagian yang berbunyi kira-kira, “In the end, we only regret the chances we didn’t take.” Lirik sederhana, tapi saat itu rasanya menampar lembut.</p>
 <p>Dalam perjuangan menuju impian — entah STEI-K atau FK — setiap keputusan terasa seperti “mengambil kesempatan”. Tidak selalu pasti, tidak selalu logis, tapi penuh harapan. Dan mungkin, take a chance di sini bukan sekadar ajakan untuk berani mencintai, melainkan juga berani percaya.</p>
 <p>Percaya pada proses, percaya pada tujuan, dan percaya pada mereka yang berjalan di sisi kita walau hanya sementara.</p>
 </section>
-<section id="sebuah-lagu-sebuah-ingatan" class="level2" data-number="2.4">
-<h2 data-number="2.4" class="anchored" data-anchor-id="sebuah-lagu-sebuah-ingatan"><span class="header-section-number">2.4</span> Sebuah Lagu, Sebuah Ingatan</h2>
+<section id="sebuah-lagu-sebuah-ingatan" class="level2">
+<h2 class="anchored" data-anchor-id="sebuah-lagu-sebuah-ingatan">Sebuah Lagu, Sebuah Ingatan</h2>
 <p>Sekarang, setiap kali lagu itu muncul lagi, aku tidak hanya mengingat seseorang, tapi masa — masa ketika perjuangan masih sederhana: hanya antara rasa ingin berhasil dan rasa takut gagal. Lagu ini seperti pengingat lembut bahwa hal-hal berharga sering lahir dari pertemuan yang tak direncanakan.</p>
 <p>Aku belajar bahwa “take a chance” tidak selalu berarti menantang dunia, kadang cuma berarti percaya sekali lagi, walau hati masih gemetar.</p>
 </section>
-<section id="penutup" class="level2" data-number="2.5">
-<h2 data-number="2.5" class="anchored" data-anchor-id="penutup"><span class="header-section-number">2.5</span> Penutup</h2>
+<section id="penutup" class="level2">
+<h2 class="anchored" data-anchor-id="penutup">Penutup</h2>
 <p>Lagu ini tidak pernah berhenti terdengar, meski aku tak lagi mendengarkannya sesering dulu. Mungkin karena lagu bukan sekadar bunyi, tapi ruang tempat kenangan beristirahat dengan damai.</p>
 <p>Dan jika ada satu pesan yang tersisa dari semuanya, mungkin begini:</p>
 <p>Kadang, kesempatan tidak datang dua kali — tapi kenangan dari keberanian pertama akan terus bergema, seperti nada terakhir yang tak benar-benar berakhir.</p>
@@ -266,6 +459,19 @@ ul.task-list li input[type="checkbox"] {
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
+    // Ensure there is a toggle, if there isn't float one in the top right
+    if (window.document.querySelector('.quarto-color-scheme-toggle') === null) {
+      const a = window.document.createElement('a');
+      a.classList.add('top-right');
+      a.classList.add('quarto-color-scheme-toggle');
+      a.href = "";
+      a.onclick = function() { try { window.quartoToggleColorScheme(); } catch {} return false; };
+      const i = window.document.createElement("i");
+      i.classList.add('bi');
+      a.appendChild(i);
+      window.document.body.appendChild(a);
+    }
+    setColorSchemeToggle(hasAlternateSentinel())
     const icon = "";
     const anchorJS = new window.AnchorJS();
     anchorJS.options = {
@@ -667,12 +873,12 @@ ul.task-list li input[type="checkbox"] {
 <nav class="page-navigation">
   <div class="nav-page nav-page-previous">
       <a href="../All_About_me/index.html" class="pagination-link" aria-label="UTS-1 All About Me">
-        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">UTS-1 All About Me</span></span>
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-title">UTS-1 All About Me</span></span>
       </a>          
   </div>
   <div class="nav-page nav-page-next">
       <a href="../My_Stories_for_You/index.html" class="pagination-link" aria-label="UTS-3 My Stories for You">
-        <span class="nav-page-text"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">UTS-3 My Stories for You</span></span> <i class="bi bi-arrow-right-short"></i>
+        <span class="nav-page-text"><span class="chapter-title">UTS-3 My Stories for You</span></span> <i class="bi bi-arrow-right-short"></i>
       </a>
   </div>
 </nav>

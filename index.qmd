@@ -1,9 +1,18 @@
-# Salam Hangat {.unnumbered}
+---
+title: "Salam Hangat"
+page-layout: full 
+toc: false
+number-sections: false 
+---
+::: {style="text-align: center;"}
 
-![About Me](images/AZRL.png){width=950%}
+![Sirojul Firdaus](images/AZRL.png){.img-circle width="300px"}
+
+:::
+::: {.content-column}
 
 ## Halo, sesama makhluk work in progress!
-
+<br>
 Hidup ini lucu, ya — kita sering ngerasa udah ngerti arah, tapi ternyata masih muter di tempat yang sama.
 Tapi nggak apa-apa, namanya juga belajar. Kadang perlu tersesat sedikit buat tahu jalan pulang.
 
@@ -13,9 +22,7 @@ Duduk santai, tarik napas, dan yuk kenalan sebelum hidup keburu sibuk lagi hehe.
 
 Katanya, masa kecil menentukan masa depan.
 Kalau benar begitu, seharusnya aku sekarang jadi ketua geng motor. 😅
-
 Untung hidup itu bisa di-update, kayak software versi lama yang akhirnya sadar pentingnya “perbaikan bug”.
-
 Jadi, ini bukan kisah orang sempurna, tapi kisah orang yang lagi proses — dari versi troublemaker 1.0 menuju Sirojul 2.0 (beta).
 
 Di antara tawa, gagal, dan kopi sachet, aku belajar satu hal penting:
@@ -24,5 +31,6 @@ kadang hidup nggak perlu selalu lurus, yang penting nggak berhenti melangkah.
 Nah, kalau kamu udah siap, izinkan aku bercerita —
 tentang masa kecil yang absurd, perjuangan yang panjang,
 dan versi diri yang terus ku-debug setiap hari.
-Cerita ini mungkin sederhana, tapi siapa tahu, kamu bisa nemu potongan dirimu di dalamnya. 😉
+Cerita ini mungkin sederhana, tapi siapa tahu, kamu bisa nemuongan dirimu di dalamnya. 😉
 
+:::

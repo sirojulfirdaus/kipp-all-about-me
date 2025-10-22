@@ -1,0 +1,108 @@
+/*-- scss:defaults --*/
+// =================================================================
+// 1. PENGATURAN FONT
+// =================================================================
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;700&display.swap');
+
+$font-family-sans-serif: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", 
+                          Roboto, "Helvetica Neue", Arial, sans-serif, 
+                          "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+$font-family-base: $font-family-sans-serif;
+$headings-font-family: $font-family-base;
+
+// =================================================================
+// 2. PENGATURAN WARNA (Aksen Oranye)
+// =================================================================
+// Ini akan menimpa warna link biru default dari 'litera'
+$primary: #e8491d; 
+$link-color: $primary;
+
+
+/*-- scss:rules --*/
+// =================================================================
+// 4. ATURAN CSS KUSTOM (YANG BERHASIL)
+// =================================================================
+
+// Membuat judul sidebar (nama Anda) lebih menonjol
+.sidebar-title {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: $primary; // Warna oranye
+}
+// Memberi style pada 'Part' (UTS / UAS) di sidebar
+.sidebar-item.sidebar-part {
+  margin-top: 1.5rem;
+  margin-bottom: 0.25rem;
+  color: #555;
+  font-weight: 700;
+  font-size: 0.9rem;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+// Warna link sidebar saat di-hover atau aktif
+.sidebar-item a:hover,
+.sidebar-item.active > .sidebar-link {
+  color: $primary;
+}
+
+// --- KUSTOMISASI KONTEN ---
+h1, h2, h3 { font-weight: 700; color: #333; }
+h1 { border-bottom: 2px solid #eee; padding-bottom: 10px; }
+
+// Link di konten utama akan jadi oranye (karena $link-color)
+// Kita hanya perlu pastikan hiasannya
+.quarto-grid-item a {
+  text-decoration: none;
+  border-bottom: 1px dashed $primary;
+}
+.quarto-grid-item a:hover { border-bottom-style: solid; }
+.toc-active { color: $primary !important; border-left-color: $primary !important; }
+
+/* ======================================================= */
+/* 5. GAYA KUSTOM UNTUK HALAMAN DEPAN (index.qmd)
+/* ======================================================= */
+.img-circle {
+  border-radius: 50%;
+  border: 6px solid $primary;
+  box-shadow: 0 0 20px rgba(232, 73, 29, 0.3);
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+.content-column {
+  max-width: 700px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 1rem;
+  padding-bottom: 4rem;
+  font-size: 1.1rem;
+  line-height: 1.7;
+  text-align: justify;
+}
+
+/* ======================================================= */
+/* 6. PERMINTAAN SEBELUMNYA (TETAP DIPAKAI)
+/* ======================================================= */
+.quarto-grid-item p {
+  text-align: justify;
+}
+
+/* PERMINTAAN: Sembunyikan SEMUA penomoran di sidebar kiri */
+.sidebar-item > .sidebar-link::before {
+  content: none !important;
+  display: none !important;
+}
+.sidebar-navigation .sidebar-item .sidebar-link::before {
+  content: none !important;
+  display: none !important;
+}
+
+/* ======================================================= */
+/* 7. PERBAIKAN WARNA BREADCRUMB (UNTUK TEMA LITERA)
+/* ======================================================= */
+// Sekarang aturan sederhana ini akan berhasil
+.breadcrumb-item a {
+  color: #6c757d !important; 
+}
+.breadcrumb-item a:hover {
+  color: #333 !important; 
+}

@@ -1,0 +1,18 @@
+/* Ganti font utama seluruh buku */
+body {
+  font-family: 'Inter', sans-serif; 
+}
+
+/* Mengganti warna judul buku di sidebar kiri */
+.sidebar-title {
+  font-weight: bold;
+  color: #005A9C; 
+}
+
+/* Kustomisasi untuk mode gelap (jika perlu) */
+body.quarto-dark {
+  /* ... aturan css khusus mode gelap ... */
+  .sidebar-title {
+    color: #89CFF0; 
+  }
+}

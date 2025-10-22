@@ -2,35 +2,69 @@ project:
   type: book
   output-dir: docs
 
+# --- BAGIAN BUKU ---
 book:
   title: "Sirojul Firdaus"
   subtitle: "Portfolio Asesmen II-2100 KIPP"
   author: "18224095 Sirojul Firdaus"
   date: "10/22/2025"
+  
+  page-navigation: true 
+  
+
+  sidebar:
+    footer: "© 2025 Sirojul Firdaus"
+    collapse-level: 1
+  
   chapters:
     - index.qmd
-    - All_About_me/index.qmd
-    - My_Song_for_You/index.qmd
-    - My_Stories_for_You/index.qmd
-    - My_Shapes/index.qmd
-    - My_Personal_Reviews/index.qmd
-    - My_Concepts/index.qmd
-    - My_Opinions/index.qmd
-    - My_Innovations/index.qmd
-    - My_Knowledge/index.qmd
-    - My_Professional_Reviews/index.qmd
-    - summary.qmd
-    - references.qmd
+    - part: "Tugas Tengah Semester (UTS)"
+      chapters:
+        - All_About_me/index.qmd
+        - My_Song_for_You/index.qmd
+        - My_Stories_for_You/index.qmd
+        - My_Shapes/index.qmd
+        - My_Personal_Reviews/index.qmd
+    - part: "Tugas Akhir Semester (UAS)"
+      chapters: 
+        - My_Concepts/index.qmd
+        - My_Opinions/index.qmd
+        - My_Innovations/index.qmd
+        - My_Knowledge/index.qmd
+        - My_Professional_Reviews/index.qmd
+    - part: "Penutup"
+      chapters:
+        - summary.qmd
+        - references.qmd
+
+# --- BAGIAN WEBSITE (FITUR) ---
+website:
+  search: true
+  reader-mode: true
 
 bibliography: references.bib
 
+# --- BAGIAN FORMAT (TAMPILAN) ---
 format:
   html:
     theme:
-      - cosmo
-      - brand
+      light: [litera, styles.scss]
+      dark: [darkly, styles.scss] 
+    
+    number-sections: false 
+    
+    toc: true
+    toc-float: true
+    toc-depth: 4
+    toc-title: "Di halaman ini"
+    
+    grid:
+      sidebar-width: 280px
+      body-width: 900px
+      margin-width: 300px
+    
+    code-fold: true
+    code-copy: true
+
   pdf:
     documentclass: scrreprt
-
-
-

@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>1&nbsp; UTS-1 All About Me – Sirojul Firdaus</title>
+<title>UTS-1 All About Me – Sirojul Firdaus</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -39,10 +39,14 @@ ul.task-list li input[type="checkbox"] {
 <script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="../site_libs/quarto-html/anchor.min.js"></script>
 <link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../site_libs/quarto-html/quarto-syntax-highlighting-7b89279ff1a6dce999919e0e67d4d9ec.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-7b89279ff1a6dce999919e0e67d4d9ec.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-dark-707d8167ce6003fca903bfe2be84ab7f.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-7b89279ff1a6dce999919e0e67d4d9ec.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
 <script src="../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../site_libs/bootstrap/bootstrap-70a47bd5681a7291082a5b9f83d58762.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-e5e25de8c0c1a53dda01b17a6ae52c93.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-dark-3a7149e7dc4e5c67379efab455f88f3e.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<link href="../site_libs/bootstrap/bootstrap-e5e25de8c0c1a53dda01b17a6ae52c93.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "sidebar",
   "copy-button": false,
@@ -74,7 +78,169 @@ ul.task-list li input[type="checkbox"] {
 
 </head>
 
-<body class="nav-sidebar floating quarto-light">
+<body class="nav-sidebar floating quarto-light"><script id="quarto-html-before-body" type="application/javascript">
+    const toggleBodyColorMode = (bsSheetEl) => {
+      const mode = bsSheetEl.getAttribute("data-mode");
+      const bodyEl = window.document.querySelector("body");
+      if (mode === "dark") {
+        bodyEl.classList.add("quarto-dark");
+        bodyEl.classList.remove("quarto-light");
+      } else {
+        bodyEl.classList.add("quarto-light");
+        bodyEl.classList.remove("quarto-dark");
+      }
+    }
+    const toggleBodyColorPrimary = () => {
+      const bsSheetEl = window.document.querySelector("link#quarto-bootstrap:not([rel=disabled-stylesheet])");
+      if (bsSheetEl) {
+        toggleBodyColorMode(bsSheetEl);
+      }
+    }
+    const setColorSchemeToggle = (alternate) => {
+      const toggles = window.document.querySelectorAll('.quarto-color-scheme-toggle');
+      for (let i=0; i < toggles.length; i++) {
+        const toggle = toggles[i];
+        if (toggle) {
+          if (alternate) {
+            toggle.classList.add("alternate");
+          } else {
+            toggle.classList.remove("alternate");
+          }
+        }
+      }
+    };
+    const toggleColorMode = (alternate) => {
+      // Switch the stylesheets
+      const primaryStylesheets = window.document.querySelectorAll('link.quarto-color-scheme:not(.quarto-color-alternate)');
+      const alternateStylesheets = window.document.querySelectorAll('link.quarto-color-scheme.quarto-color-alternate');
+      manageTransitions('#quarto-margin-sidebar .nav-link', false);
+      if (alternate) {
+        // note: dark is layered on light, we don't disable primary!
+        enableStylesheet(alternateStylesheets);
+        for (const sheetNode of alternateStylesheets) {
+          if (sheetNode.id === "quarto-bootstrap") {
+            toggleBodyColorMode(sheetNode);
+          }
+        }
+      } else {
+        disableStylesheet(alternateStylesheets);
+        enableStylesheet(primaryStylesheets)
+        toggleBodyColorPrimary();
+      }
+      manageTransitions('#quarto-margin-sidebar .nav-link', true);
+      // Switch the toggles
+      setColorSchemeToggle(alternate)
+      // Hack to workaround the fact that safari doesn't
+      // properly recolor the scrollbar when toggling (#1455)
+      if (navigator.userAgent.indexOf('Safari') > 0 && navigator.userAgent.indexOf('Chrome') == -1) {
+        manageTransitions("body", false);
+        window.scrollTo(0, 1);
+        setTimeout(() => {
+          window.scrollTo(0, 0);
+          manageTransitions("body", true);
+        }, 40);
+      }
+    }
+    const disableStylesheet = (stylesheets) => {
+      for (let i=0; i < stylesheets.length; i++) {
+        const stylesheet = stylesheets[i];
+        stylesheet.rel = 'disabled-stylesheet';
+      }
+    }
+    const enableStylesheet = (stylesheets) => {
+      for (let i=0; i < stylesheets.length; i++) {
+        const stylesheet = stylesheets[i];
+        if(stylesheet.rel !== 'stylesheet') { // for Chrome, which will still FOUC without this check
+          stylesheet.rel = 'stylesheet';
+        }
+      }
+    }
+    const manageTransitions = (selector, allowTransitions) => {
+      const els = window.document.querySelectorAll(selector);
+      for (let i=0; i < els.length; i++) {
+        const el = els[i];
+        if (allowTransitions) {
+          el.classList.remove('notransition');
+        } else {
+          el.classList.add('notransition');
+        }
+      }
+    }
+    const isFileUrl = () => {
+      return window.location.protocol === 'file:';
+    }
+    const hasAlternateSentinel = () => {
+      let styleSentinel = getColorSchemeSentinel();
+      if (styleSentinel !== null) {
+        return styleSentinel === "alternate";
+      } else {
+        return false;
+      }
+    }
+    const setStyleSentinel = (alternate) => {
+      const value = alternate ? "alternate" : "default";
+      if (!isFileUrl()) {
+        window.localStorage.setItem("quarto-color-scheme", value);
+      } else {
+        localAlternateSentinel = value;
+      }
+    }
+    const getColorSchemeSentinel = () => {
+      if (!isFileUrl()) {
+        const storageValue = window.localStorage.getItem("quarto-color-scheme");
+        return storageValue != null ? storageValue : localAlternateSentinel;
+      } else {
+        return localAlternateSentinel;
+      }
+    }
+    const toggleGiscusIfUsed = (isAlternate, darkModeDefault) => {
+      const baseTheme = document.querySelector('#giscus-base-theme')?.value ?? 'light';
+      const alternateTheme = document.querySelector('#giscus-alt-theme')?.value ?? 'dark';
+      let newTheme = '';
+      if(authorPrefersDark) {
+        newTheme = isAlternate ? baseTheme : alternateTheme;
+      } else {
+        newTheme = isAlternate ? alternateTheme : baseTheme;
+      }
+      const changeGiscusTheme = () => {
+        // From: https://github.com/giscus/giscus/issues/336
+        const sendMessage = (message) => {
+          const iframe = document.querySelector('iframe.giscus-frame');
+          if (!iframe) return;
+          iframe.contentWindow.postMessage({ giscus: message }, 'https://giscus.app');
+        }
+        sendMessage({
+          setConfig: {
+            theme: newTheme
+          }
+        });
+      }
+      const isGiscussLoaded = window.document.querySelector('iframe.giscus-frame') !== null;
+      if (isGiscussLoaded) {
+        changeGiscusTheme();
+      }
+    };
+    const authorPrefersDark = false;
+    const darkModeDefault = authorPrefersDark;
+      document.querySelector('link#quarto-text-highlighting-styles.quarto-color-scheme-extra').rel = 'disabled-stylesheet';
+      document.querySelector('link#quarto-bootstrap.quarto-color-scheme-extra').rel = 'disabled-stylesheet';
+    let localAlternateSentinel = darkModeDefault ? 'alternate' : 'default';
+    // Dark / light mode switch
+    window.quartoToggleColorScheme = () => {
+      // Read the current dark / light value
+      let toAlternate = !hasAlternateSentinel();
+      toggleColorMode(toAlternate);
+      setStyleSentinel(toAlternate);
+      toggleGiscusIfUsed(toAlternate, darkModeDefault);
+      window.dispatchEvent(new Event('resize'));
+    };
+    // Switch to dark mode if need be
+    if (hasAlternateSentinel()) {
+      toggleColorMode(true);
+    } else {
+      toggleColorMode(false);
+    }
+  </script>
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
@@ -83,7 +249,7 @@ ul.task-list li input[type="checkbox"] {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../All_About_me/index.html"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">UTS-1 All About Me</span></a></li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../All_About_me/index.html">Tugas Tengah Semester (UTS)</a></li><li class="breadcrumb-item"><a href="../All_About_me/index.html"><span class="chapter-title">UTS-1 All About Me</span></a></li></ol></nav>
         <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
       <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
@@ -101,6 +267,9 @@ ul.task-list li input[type="checkbox"] {
       </a>
     <div class="sidebar-title mb-0 py-0">
       <a href="../">Sirojul Firdaus</a> 
+        <div class="sidebar-tools-main">
+  <a href="" class="quarto-color-scheme-toggle quarto-navigation-tool  px-1" onclick="window.quartoToggleColorScheme(); return false;" title="Toggle dark mode"><i class="bi"></i></a>
+</div>
     </div>
       </div>
         <div class="mt-2 flex-shrink-0 align-items-center">
@@ -112,110 +281,134 @@ ul.task-list li input[type="checkbox"] {
     <ul class="list-unstyled mt-1">
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../index.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Salam Hangat</span></a>
+  <a href="../index.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Salam Hangat</span></a>
   </div>
 </li>
-        <li class="sidebar-item">
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="true">
+ <span class="menu-text">Tugas Tengah Semester (UTS)</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="true" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../All_About_me/index.html" class="sidebar-item-text sidebar-link active">
- <span class="menu-text"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">UTS-1 All About Me</span></span></a>
+  <a href="../All_About_me/index.html" class="sidebar-item-text sidebar-link active"><span class="chapter-title">UTS-1 All About Me</span></a>
   </div>
 </li>
-        <li class="sidebar-item">
+          <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../My_Song_for_You/index.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">UTS-2 My Songs for You</span></span></a>
+  <a href="../My_Song_for_You/index.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">UTS-2 My Songs for You</span></a>
   </div>
 </li>
-        <li class="sidebar-item">
+          <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../My_Stories_for_You/index.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">UTS-3 My Stories for You</span></span></a>
+  <a href="../My_Stories_for_You/index.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">UTS-3 My Stories for You</span></a>
   </div>
 </li>
-        <li class="sidebar-item">
+          <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../My_Shapes/index.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">UTS-4 My SHAPE (Spiritual Gifts, Heart, Abilities, Personality, Experiences)</span></span></a>
+  <a href="../My_Shapes/index.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">UTS-4 My SHAPE (Spiritual Gifts, Heart, Abilities, Personality, Experiences)</span></a>
   </div>
 </li>
-        <li class="sidebar-item">
+          <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../My_Personal_Reviews/index.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">5</span>&nbsp; <span class="chapter-title">UTS-5 My Personal Reviews</span></span></a>
+  <a href="../My_Personal_Reviews/index.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">UTS-5 My Personal Reviews</span></a>
   </div>
 </li>
-        <li class="sidebar-item">
+      </ul>
+  </li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" role="navigation" aria-expanded="false">
+ <span class="menu-text">Tugas Akhir Semester (UAS)</span></a>
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" role="navigation" aria-expanded="false" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-2" class="collapse list-unstyled sidebar-section depth1 ">  
+          <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../My_Concepts/index.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">6</span>&nbsp; <span class="chapter-title">UAS-1 My Concepts</span></span></a>
+  <a href="../My_Concepts/index.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">UAS-1 My Concepts</span></a>
   </div>
 </li>
-        <li class="sidebar-item">
+          <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../My_Opinions/index.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">7</span>&nbsp; <span class="chapter-title">UAS-3 My Opinions</span></span></a>
+  <a href="../My_Opinions/index.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">UAS-3 My Opinions</span></a>
   </div>
 </li>
-        <li class="sidebar-item">
+          <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../My_Innovations/index.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">8</span>&nbsp; <span class="chapter-title">UAS-3 My Innovations</span></span></a>
+  <a href="../My_Innovations/index.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">UAS-3 My Innovations</span></a>
   </div>
 </li>
-        <li class="sidebar-item">
+          <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../My_Knowledge/index.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">9</span>&nbsp; <span class="chapter-title">UAS-4 My Knowledge</span></span></a>
+  <a href="../My_Knowledge/index.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">UAS-4 My Knowledge</span></a>
   </div>
 </li>
-        <li class="sidebar-item">
+          <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../My_Professional_Reviews/index.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">10</span>&nbsp; <span class="chapter-title">UAS-5 My Professional Reviews</span></span></a>
+  <a href="../My_Professional_Reviews/index.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">UAS-5 My Professional Reviews</span></a>
   </div>
 </li>
-        <li class="sidebar-item">
+      </ul>
+  </li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" role="navigation" aria-expanded="false">
+ <span class="menu-text">Penutup</span></a>
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" role="navigation" aria-expanded="false" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-3" class="collapse list-unstyled sidebar-section depth1 ">  
+          <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../summary.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">11</span>&nbsp; <span class="chapter-title">Summary</span></span></a>
+  <a href="../summary.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Summary</span></a>
   </div>
 </li>
-        <li class="sidebar-item">
+          <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../references.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">References</span></a>
   </div>
 </li>
+      </ul>
+  </li>
     </ul>
     </div>
-</nav>
+<div class="quarto-sidebar-footer"><div class="sidebar-footer-item">
+<p>© 2025 Sirojul Firdaus</p>
+</div></div></nav>
 <div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
         <nav id="TOC" role="doc-toc" class="toc-active">
-    <h2 id="toc-title">Table of contents</h2>
+    <h2 id="toc-title">Di halaman ini</h2>
    
   <ul>
-  <li><a href="#sebuah-awal-yang-tidak-manis" id="toc-sebuah-awal-yang-tidak-manis" class="nav-link active" data-scroll-target="#sebuah-awal-yang-tidak-manis"><span class="header-section-number">1.1</span> Sebuah Awal yang Tidak Manis</a></li>
-  <li><a href="#sebuah-percikan-yang-mengubah-segalanya" id="toc-sebuah-percikan-yang-mengubah-segalanya" class="nav-link" data-scroll-target="#sebuah-percikan-yang-mengubah-segalanya"><span class="header-section-number">1.2</span> Sebuah Percikan yang Mengubah Segalanya</a></li>
-  <li><a href="#dari-minus" id="toc-dari-minus" class="nav-link" data-scroll-target="#dari-minus"><span class="header-section-number">1.3</span> Dari Minus</a></li>
-  <li><a href="#dari-anak-pemalas-menjadi-eksplorator" id="toc-dari-anak-pemalas-menjadi-eksplorator" class="nav-link" data-scroll-target="#dari-anak-pemalas-menjadi-eksplorator"><span class="header-section-number">1.4</span> Dari Anak Pemalas Menjadi Eksplorator</a></li>
-  <li><a href="#antara-ekstrover-dan-introver" id="toc-antara-ekstrover-dan-introver" class="nav-link" data-scroll-target="#antara-ekstrover-dan-introver"><span class="header-section-number">1.5</span> Antara Ekstrover dan Introver</a></li>
-  <li><a href="#belajar-untuk-tidak-merasa-paling" id="toc-belajar-untuk-tidak-merasa-paling" class="nav-link" data-scroll-target="#belajar-untuk-tidak-merasa-paling"><span class="header-section-number">1.6</span> Belajar untuk Tidak Merasa “Paling”</a></li>
-  <li><a href="#kesadaran-yang-menyelamatkan" id="toc-kesadaran-yang-menyelamatkan" class="nav-link" data-scroll-target="#kesadaran-yang-menyelamatkan"><span class="header-section-number">1.7</span> Kesadaran yang Menyelamatkan</a></li>
-  <li><a href="#sedikit-tentang-rambut-dan-hal-hal-receh" id="toc-sedikit-tentang-rambut-dan-hal-hal-receh" class="nav-link" data-scroll-target="#sedikit-tentang-rambut-dan-hal-hal-receh"><span class="header-section-number">1.8</span> Sedikit Tentang Rambut dan Hal-hal Receh</a></li>
-  <li><a href="#menikmati-cerita-ini" id="toc-menikmati-cerita-ini" class="nav-link" data-scroll-target="#menikmati-cerita-ini"><span class="header-section-number">1.9</span> Menikmati Cerita Ini</a></li>
+  <li><a href="#sebuah-awal-yang-tidak-manis" id="toc-sebuah-awal-yang-tidak-manis" class="nav-link active" data-scroll-target="#sebuah-awal-yang-tidak-manis">Sebuah Awal yang Tidak Manis</a></li>
+  <li><a href="#sebuah-percikan-yang-mengubah-segalanya" id="toc-sebuah-percikan-yang-mengubah-segalanya" class="nav-link" data-scroll-target="#sebuah-percikan-yang-mengubah-segalanya">Sebuah Percikan yang Mengubah Segalanya</a></li>
+  <li><a href="#dari-minus" id="toc-dari-minus" class="nav-link" data-scroll-target="#dari-minus">Dari Minus</a></li>
+  <li><a href="#dari-anak-pemalas-menjadi-eksplorator" id="toc-dari-anak-pemalas-menjadi-eksplorator" class="nav-link" data-scroll-target="#dari-anak-pemalas-menjadi-eksplorator">Dari Anak Pemalas Menjadi Eksplorator</a></li>
+  <li><a href="#antara-ekstrover-dan-introver" id="toc-antara-ekstrover-dan-introver" class="nav-link" data-scroll-target="#antara-ekstrover-dan-introver">Antara Ekstrover dan Introver</a></li>
+  <li><a href="#belajar-untuk-tidak-merasa-paling" id="toc-belajar-untuk-tidak-merasa-paling" class="nav-link" data-scroll-target="#belajar-untuk-tidak-merasa-paling">Belajar untuk Tidak Merasa “Paling”</a></li>
+  <li><a href="#kesadaran-yang-menyelamatkan" id="toc-kesadaran-yang-menyelamatkan" class="nav-link" data-scroll-target="#kesadaran-yang-menyelamatkan">Kesadaran yang Menyelamatkan</a></li>
+  <li><a href="#sedikit-tentang-rambut-dan-hal-hal-receh" id="toc-sedikit-tentang-rambut-dan-hal-hal-receh" class="nav-link" data-scroll-target="#sedikit-tentang-rambut-dan-hal-hal-receh">Sedikit Tentang Rambut dan Hal-hal Receh</a></li>
+  <li><a href="#menikmati-cerita-ini" id="toc-menikmati-cerita-ini" class="nav-link" data-scroll-target="#menikmati-cerita-ini">Menikmati Cerita Ini</a></li>
   </ul>
 </nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
-<header id="title-block-header" class="quarto-title-block default">
+
+<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../All_About_me/index.html">Tugas Tengah Semester (UTS)</a></li><li class="breadcrumb-item"><a href="../All_About_me/index.html"><span class="chapter-title">UTS-1 All About Me</span></a></li></ol></nav>
 <div class="quarto-title">
-<h1 class="title"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">UTS-1 All About Me</span></h1>
+<h1 class="title"><span class="chapter-title">UTS-1 All About Me</span></h1>
 </div>
 
 
@@ -238,52 +431,52 @@ ul.task-list li input[type="checkbox"] {
 <figcaption>About Me</figcaption>
 </figure>
 </div>
-<section id="sebuah-awal-yang-tidak-manis" class="level2" data-number="1.1">
-<h2 data-number="1.1" class="anchored" data-anchor-id="sebuah-awal-yang-tidak-manis"><span class="header-section-number">1.1</span> Sebuah Awal yang Tidak Manis</h2>
+<section id="sebuah-awal-yang-tidak-manis" class="level2">
+<h2 class="anchored" data-anchor-id="sebuah-awal-yang-tidak-manis">Sebuah Awal yang Tidak Manis</h2>
 <p>Aku bukan anak baik di masa kecil. Kalimat itu mungkin terdengar keras, tapi biar jujur aja — begitulah adanya. Sebelum kelas empat SD, aku tumbuh di lingkungan yang, kalau boleh dibilang, bukan tempat ideal untuk menanam mimpi. Hari-hariku diisi kenakalan, keisengan, dan rasa penasaran yang sering berujung masalah. Hampir semua kenakalan remaja pernah kucoba, kecuali dua hal:😅</p>
 <p>Lucunya, justru dari masa itu aku belajar banyak. Hidup di lingkungan yang “berisik” membuatku terbiasa membaca keadaan, memahami orang, dan tahu kapan harus berhenti. Aku dulu tidak tahu arah, tapi entah bagaimana, ada satu orang yang membuka mataku — omku.</p>
 </section>
-<section id="sebuah-percikan-yang-mengubah-segalanya" class="level2" data-number="1.2">
-<h2 data-number="1.2" class="anchored" data-anchor-id="sebuah-percikan-yang-mengubah-segalanya"><span class="header-section-number">1.2</span> Sebuah Percikan yang Mengubah Segalanya</h2>
+<section id="sebuah-percikan-yang-mengubah-segalanya" class="level2">
+<h2 class="anchored" data-anchor-id="sebuah-percikan-yang-mengubah-segalanya">Sebuah Percikan yang Mengubah Segalanya</h2>
 <p>Omku bukan orang kaya, bukan juga lulusan universitas ternama. Tapi satu kalimat darinya mengubah seluruh hidupku:</p>
 <p>“Pendidikan bisa mengubah kualitas hidupmu, Us.”</p>
 <p>Kalimat sederhana itu terasa seperti tamparan lembut. Untuk pertama kalinya, aku sadar bahwa hidup bukan soal mengikuti arus, tapi tentang memilih arah. Sejak itu, aku mulai melihat belajar bukan sebagai kewajiban, tapi kesempatan.</p>
 <p>Aku lahir di keluarga yang tidak akrab dengan kata “edukasi”. Tak ada yang bicara soal IPK, kuliah, atau riset. Tapi dari keluarga itu, aku belajar arti perjuangan — bahwa hidup bisa keras, tapi kita bisa lebih keras lagi. Aku tumbuh dari minus: finansial yang serba pas-pasan, akses pendidikan yang terbatas, dan lingkungan sosial yang kadang mematikan mimpi. Tapi mungkin justru dari “minus” itulah semangatku berakar.</p>
 </section>
-<section id="dari-minus" class="level2" data-number="1.3">
-<h2 data-number="1.3" class="anchored" data-anchor-id="dari-minus"><span class="header-section-number">1.3</span> Dari Minus</h2>
+<section id="dari-minus" class="level2">
+<h2 class="anchored" data-anchor-id="dari-minus">Dari Minus</h2>
 <p>Aku tidak pernah bermimpi masuk ITB karena dulu rasanya tidak realistis. Tapi mimpi kadang datang tanpa izin, dan usaha yang keras ternyata punya suara. Aku menapaki jalan yang panjang — penuh kegagalan, gap year, dan rasa ragu — hingga akhirnya aku berdiri di kampus ini, di STEI-K ITB, belajar tentang sistem, teknologi, dan masa depan.</p>
 <p>Aku memilih STEI-K karena di sanalah aku bisa menjembatani dua hal yang paling kusukai: manajemen dan teknologi. Aku tertarik dengan data dan AI, juga product management, di mana aku bisa menggabungkan logika, kreativitas, dan empati untuk menciptakan solusi nyata.</p>
 <p>Setiap hari di ITB, aku belajar bukan hanya teori, tapi juga cara berpikir, bekerja dalam tim, dan memahami orang lain — skill yang jauh lebih penting dalam dunia nyata. Di sinilah aku belajar bahwa komunikasi bukan sekadar berbicara, tapi tentang mengerti.</p>
 </section>
-<section id="dari-anak-pemalas-menjadi-eksplorator" class="level2" data-number="1.4">
-<h2 data-number="1.4" class="anchored" data-anchor-id="dari-anak-pemalas-menjadi-eksplorator"><span class="header-section-number">1.4</span> Dari Anak Pemalas Menjadi Eksplorator</h2>
+<section id="dari-anak-pemalas-menjadi-eksplorator" class="level2">
+<h2 class="anchored" data-anchor-id="dari-anak-pemalas-menjadi-eksplorator">Dari Anak Pemalas Menjadi Eksplorator</h2>
 <p>Kalau ada yang bilang orang nggak bisa berubah, aku mungkin buktinya. Dulu aku benci olahraga. Lari 500 meter aja bisa jadi tragedi. Tapi entah kenapa, belakangan aku malah jadi orang yang nggak bisa diam: badminton, futsal, gym, berenang, bersepeda. Sering aku mikir sendiri, “Ini aku atau reinkarnasi orang lain?” 😂</p>
 <p>Tapi mungkin begitulah caraku menikmati hidup — mencoba hal-hal baru meski hanya sebentar. Aku tidak punya satu hobi tetap, tapi aku punya semangat untuk terus mencari hal yang membuatku hidup. Aku menyebutnya “exploring phase of life” — fase di mana aku belajar bahwa rasa penasaran adalah bahan bakar paling murni untuk tumbuh.</p>
 </section>
-<section id="antara-ekstrover-dan-introver" class="level2" data-number="1.5">
-<h2 data-number="1.5" class="anchored" data-anchor-id="antara-ekstrover-dan-introver"><span class="header-section-number">1.5</span> Antara Ekstrover dan Introver</h2>
+<section id="antara-ekstrover-dan-introver" class="level2">
+<h2 class="anchored" data-anchor-id="antara-ekstrover-dan-introver">Antara Ekstrover dan Introver</h2>
 <p>Kalau kamu bertemu denganku di kampus, mungkin kamu akan mengira aku ekstrover. Aku bisa bicara dengan siapa pun — anak kecil, satpam, dosen, bahkan direktur perusahaan. Tapi di sisi lain, aku juga suka menyendiri, menikmati diam, atau sekadar menulis ide-ide yang melintas di kepala.</p>
 <p>Aku ambivert — perpaduan dua dunia yang tampak bertolak belakang. Tapi justru itu yang membuatku bisa menyesuaikan diri di banyak situasi. Kadang aku yang memulai percakapan, kadang aku yang memilih mendengarkan. Dari situ aku belajar satu hal: komunikasi bukan tentang banyaknya kata, tapi tentang kehadiran.</p>
 </section>
-<section id="belajar-untuk-tidak-merasa-paling" class="level2" data-number="1.6">
-<h2 data-number="1.6" class="anchored" data-anchor-id="belajar-untuk-tidak-merasa-paling"><span class="header-section-number">1.6</span> Belajar untuk Tidak Merasa “Paling”</h2>
+<section id="belajar-untuk-tidak-merasa-paling" class="level2">
+<h2 class="anchored" data-anchor-id="belajar-untuk-tidak-merasa-paling">Belajar untuk Tidak Merasa “Paling”</h2>
 <p>Waktu SD dan SMP, aku selalu punya posisi aman — si anak pintar yang jarang gagal. Tapi saat masuk SMA, bahkan lebih lagi ketika kuliah, aku sadar: dunia ini luas, dan banyak orang yang lebih hebat dariku.</p>
 <p>Awalnya itu menampar ego. Tapi seiring waktu, aku menemukan ketenangan baru — kesadaran bahwa kita tidak harus menjadi yang paling hebat untuk berarti. Yang penting adalah terus belajar, berproses, dan konsisten menjadi lebih baik dari kemarin.</p>
 <p>“I’m not the smartest in the room, but I’ll make sure I’m the most persistent.”</p>
 <p>Kalimat itu kini jadi prinsipku. Aku bukan orang yang cepat paham, tapi aku nggak akan berhenti sebelum paham.</p>
 </section>
-<section id="kesadaran-yang-menyelamatkan" class="level2" data-number="1.7">
-<h2 data-number="1.7" class="anchored" data-anchor-id="kesadaran-yang-menyelamatkan"><span class="header-section-number">1.7</span> Kesadaran yang Menyelamatkan</h2>
+<section id="kesadaran-yang-menyelamatkan" class="level2">
+<h2 class="anchored" data-anchor-id="kesadaran-yang-menyelamatkan">Kesadaran yang Menyelamatkan</h2>
 <p>Hal yang paling kusyukuri dalam hidup bukan pencapaian, tapi kesadaran untuk sadar. Kedengarannya filosofis, tapi bagiku ini nyata. Di tengah lingkungan masa kecilku yang rusak, aku bersyukur bisa punya kesadaran untuk berkata pada diri sendiri, “Aku bisa memilih arah berbeda.”</p>
 <p>Kesadaran itu seperti lampu kecil di ruangan gelap — nggak langsung menerangi segalanya, tapi cukup untuk menemukan jalan. Dan buatku, itu lebih dari cukup.</p>
 </section>
-<section id="sedikit-tentang-rambut-dan-hal-hal-receh" class="level2" data-number="1.8">
-<h2 data-number="1.8" class="anchored" data-anchor-id="sedikit-tentang-rambut-dan-hal-hal-receh"><span class="header-section-number">1.8</span> Sedikit Tentang Rambut dan Hal-hal Receh</h2>
+<section id="sedikit-tentang-rambut-dan-hal-hal-receh" class="level2">
+<h2 class="anchored" data-anchor-id="sedikit-tentang-rambut-dan-hal-hal-receh">Sedikit Tentang Rambut dan Hal-hal Receh</h2>
 <p>Kalau semua cerita di atas terlalu berat, mari istirahat sejenak 😄 Aku punya satu kebiasaan aneh: aku nggak suka rambut panjang. Padahal banyak cowok di teknik yang bangga sama rambut gondrongnya. Tapi aku? Begitu rambut mulai nutupin telinga, aku langsung cari gunting. Aku nggak tahu kenapa, tapi mungkin karena aku nggak suka sesuatu yang “mengganggu fokus.” Hidup aja udah cukup rumit, ngapain nambah drama di kepala, kan? 😆</p>
 </section>
-<section id="menikmati-cerita-ini" class="level2" data-number="1.9">
-<h2 data-number="1.9" class="anchored" data-anchor-id="menikmati-cerita-ini"><span class="header-section-number">1.9</span> Menikmati Cerita Ini</h2>
+<section id="menikmati-cerita-ini" class="level2">
+<h2 class="anchored" data-anchor-id="menikmati-cerita-ini">Menikmati Cerita Ini</h2>
 <p>Kalau ditanya apa harapanku dari tugas ini — jujur aja, aku kerjain karena tugas wkwkwk. Tapi kalau boleh berharap sedikit, aku ingin siapa pun yang membaca atau menontonnya menikmati perjalananku. Nggak harus merasa kasihan, nggak harus terinspirasi — cukup tersenyum dan sadar bahwa setiap orang punya versi perjuangannya sendiri.</p>
 <p>Aku mungkin belum tahu akan jadi apa nanti. Tapi satu hal yang kutahu, aku akan baik-baik saja. Karena aku sudah belajar hal paling penting: bahwa perubahan dimulai dari keberanian untuk melangkah, bukan dari hasil yang sudah pasti.</p>
 <p>Someday, I’ll become exactly who I’m meant to be. Dan perjalanan itu — sudah dimulai sejak aku berani berubah.</p>
@@ -295,6 +488,19 @@ ul.task-list li input[type="checkbox"] {
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
+    // Ensure there is a toggle, if there isn't float one in the top right
+    if (window.document.querySelector('.quarto-color-scheme-toggle') === null) {
+      const a = window.document.createElement('a');
+      a.classList.add('top-right');
+      a.classList.add('quarto-color-scheme-toggle');
+      a.href = "";
+      a.onclick = function() { try { window.quartoToggleColorScheme(); } catch {} return false; };
+      const i = window.document.createElement("i");
+      i.classList.add('bi');
+      a.appendChild(i);
+      window.document.body.appendChild(a);
+    }
+    setColorSchemeToggle(hasAlternateSentinel())
     const icon = "";
     const anchorJS = new window.AnchorJS();
     anchorJS.options = {
@@ -696,12 +902,12 @@ ul.task-list li input[type="checkbox"] {
 <nav class="page-navigation">
   <div class="nav-page nav-page-previous">
       <a href="../index.html" class="pagination-link" aria-label="Salam Hangat">
-        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text">Salam Hangat</span>
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-title">Salam Hangat</span></span>
       </a>          
   </div>
   <div class="nav-page nav-page-next">
       <a href="../My_Song_for_You/index.html" class="pagination-link" aria-label="UTS-2 My Songs for You">
-        <span class="nav-page-text"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">UTS-2 My Songs for You</span></span> <i class="bi bi-arrow-right-short"></i>
+        <span class="nav-page-text"><span class="chapter-title">UTS-2 My Songs for You</span></span> <i class="bi bi-arrow-right-short"></i>
       </a>
   </div>
 </nav>
