@@ -4,12 +4,12 @@
 
 | **Kriteria** | **Deskripsi Penilaian** | **Skor (1–5)** | **Catatan / Bukti** |
 |---------------|--------------------------|-----------------|----------------------|
-| **Orisinalitas** | Cerita menunjukkan keaslian dan gaya khas pribadi. | **5** | Gaya narasi humoris dan jujur seperti “seharusnya aku jadi ketua geng motor”. |
-| **Keterlibatan Emosional** | Pembaca dapat ikut merasakan perjalanan batin penulis. | **5** | Emosi campur antara perjuangan, refleksi, dan humor terasa kuat. |
-| **Humor & Ringan** | Ada unsur ringan yang membuat pembaca nyaman membaca. | **5** | Gaya santai dan penuh kehangatan; tidak terasa seperti tugas kuliah. |
-| **Refleksi & Insight** | Cerita mengandung pembelajaran dan kesadaran diri. | **5** | Ada refleksi diri tentang perubahan dan makna hidup. |
+| **Orisinalitas** | Cerita menunjukkan keaslian dan gaya khas pribadi. | **4.9** | Gaya narasi humoris dan jujur seperti “seharusnya aku jadi ketua geng motor”. |
+| **Keterlibatan Emosional** | Pembaca dapat ikut merasakan perjalanan batin penulis. | **5.0** | Emosi campur antara perjuangan, refleksi, dan humor terasa kuat. |
+| **Humor & Ringan** | Ada unsur ringan yang membuat pembaca nyaman membaca. | **4.8** | Gaya santai dan penuh kehangatan; tidak terasa seperti tugas kuliah. |
+| **Refleksi & Insight** | Cerita mengandung pembelajaran dan kesadaran diri. | **4.9** | Ada refleksi diri tentang perubahan dan makna hidup. |
 
-**Total Skor: 5.00 (A)**  
+**Total Skor: 4.9 (A)**  
 📝 *Tulisan ringan tapi reflektif; menunjukkan self-awareness dan kedewasaan berpikir.*
 
 ---
@@ -18,12 +18,12 @@
 
 | **Kriteria** | **Deskripsi Penilaian** | **Skor (1–5)** | **Catatan / Bukti** |
 |---------------|--------------------------|-----------------|----------------------|
-| **Orisinalitas & Relevansi** | Lagu dipilih dengan makna personal, bukan sekadar favorit. | **5** | Lagu *Take a Chance with Me* dihubungkan dengan perjalanan perjuangan, bukan cinta semata. |
-| **Keterlibatan Emosional** | Cerita menunjukkan hubungan emosional dengan lagu. | **5** | Lagu menjadi pengingat perjuangan masa gap year dan semangat bersama. |
-| **Kedalaman Refleksi** | Lagu ditafsirkan dengan konteks kehidupan nyata. | **5** | Penulis mengaitkan pesan lagu dengan motivasi dan filosofi hidup. |
-| **Gaya & Kejelasan** | Tulisan mengalir dan mudah dipahami. | **5** | Bilingual ringan, alami, dan berimbang antara rasa dan refleksi. |
+| **Orisinalitas & Relevansi** | Lagu dipilih dengan makna personal, bukan sekadar favorit. | **4.8** | Lagu *Take a Chance with Me* dihubungkan dengan perjalanan perjuangan, bukan cinta semata. |
+| **Keterlibatan Emosional** | Cerita menunjukkan hubungan emosional dengan lagu. | **5.0** | Lagu menjadi pengingat perjuangan masa gap year dan semangat bersama. |
+| **Kedalaman Refleksi** | Lagu ditafsirkan dengan konteks kehidupan nyata. | **4.9** | Penulis mengaitkan pesan lagu dengan motivasi dan filosofi hidup. |
+| **Gaya & Kejelasan** | Tulisan mengalir dan mudah dipahami. | **4.9** | Bilingual ringan, alami, dan berimbang antara rasa dan refleksi. |
 
-**Total Skor: 5.00 (A)**  
+**Total Skor: 4.9 (A)**  
 📝 *Interpretasi lagu matang dan reflektif — bukan sekadar curhat, tapi pemaknaan mendalam.*
 
 ---
@@ -32,12 +32,12 @@
 
 | **Kriteria** | **Deskripsi Penilaian** | **Skor (1–5)** | **Catatan / Bukti** |
 |---------------|--------------------------|-----------------|----------------------|
-| **Orisinalitas** | Cerita unik dan personal, bukan generik. | **5** | Kisah tiga kota (Surabaya–Jatinangor–Bandung) sangat otentik dan berlapis makna. |
-| **Struktur & Alur** | Cerita tersusun logis dengan transisi halus. | **5** | Transisi antar bagian lancar; pembaca dibawa dengan ritme yang konsisten. |
-| **Pengembangan Emosi & Diri** | Ada dinamika perasaan dan pertumbuhan batin. | **5** | Dari “ingin pergi” jadi “belajar menghargai rumah”; reflektif dan lembut. |
-| **Refleksi & Pesan Akhir** | Cerita menutup dengan pesan universal. | **5** | “Rumah bukan tempat, tapi perasaan” — kalimat yang filosofis dan kuat. |
+| **Orisinalitas** | Cerita unik dan personal, bukan generik. | **5.0** | Kisah tiga kota (Surabaya–Jatinangor–Bandung) sangat otentik dan berlapis makna. |
+| **Struktur & Alur** | Cerita tersusun logis dengan transisi halus. | **4.9** | Transisi antar bagian lancar; pembaca dibawa dengan ritme yang konsisten. |
+| **Pengembangan Emosi & Diri** | Ada dinamika perasaan dan pertumbuhan batin. | **4.8** | Dari “ingin pergi” jadi “belajar menghargai rumah”; reflektif dan lembut. |
+| **Refleksi & Pesan Akhir** | Cerita menutup dengan pesan universal. | **4.9** | “Rumah bukan tempat, tapi perasaan” — kalimat yang filosofis dan kuat. |
 
-**Total Skor: 5.00 (A)**  
+**Total Skor: 4.9 (A)**  
 📝 *Narasi paling hidup dan puitis; tiap bagian menyatu dengan transisi yang menarik.*
 
 ---
@@ -46,12 +46,12 @@
 
 | **Kriteria** | **Deskripsi Penilaian** | **Skor (1–5)** | **Catatan / Bukti** |
 |---------------|--------------------------|-----------------|----------------------|
-| **Kelengkapan SHAPE** | Semua bagian (S–H–A–P–E) terisi lengkap dan jelas. | **5** | Setiap elemen disusun sinkron dan relevan dengan perjalanan hidup. |
-| **Koherensi & Keterkaitan** | Nilai, kemampuan, dan pengalaman saling terhubung. | **5** | Karunia spiritual, minat, dan pengalaman dikaitkan secara logis. |
-| **Keaslian & Kejujuran** | Tulisan menunjukkan pemahaman diri yang tulus. | **5** | Refleksi tidak dibuat-buat; menggambarkan identitas sejati penulis. |
-| **Gaya & Inspirasi** | Bahasa jelas, reflektif, dan inspiratif. | **5** | Ringkas, namun menggerakkan dan mudah dibaca. |
+| **Kelengkapan SHAPE** | Semua bagian (S–H–A–P–E) terisi lengkap dan jelas. | **5.0** | Setiap elemen disusun sinkron dan relevan dengan perjalanan hidup. |
+| **Koherensi & Keterkaitan** | Nilai, kemampuan, dan pengalaman saling terhubung. | **4.9** | Karunia spiritual, minat, dan pengalaman dikaitkan secara logis. |
+| **Keaslian & Kejujuran** | Tulisan menunjukkan pemahaman diri yang tulus. | **4.8** | Refleksi tidak dibuat-buat; menggambarkan identitas sejati penulis. |
+| **Gaya & Inspirasi** | Bahasa jelas, reflektif, dan inspiratif. | **4.9** | Ringkas, namun menggerakkan dan mudah dibaca. |
 
-**Total Skor: 5.00 (A)**  
+**Total Skor: 4.9 (A)**  
 📝 *Refleksi diri yang solid dan berisi; terasa tulus dan seimbang antara logika dan hati.*
 
 ---
@@ -60,10 +60,10 @@
 
 | **UTS** | **Kriteria Utama** | **Skor Total (1–5)** | **Nilai Huruf** | **Deskripsi Umum** |
 |----------|--------------------|-----------------------|-----------------|--------------------|
-| 🧩 **UTS-1: All About Me** | Orisinalitas, Emosi, Humor, Insight | **5.00** | **A** | Penuh karakter, jujur, dan reflektif. |
-| 🎵 **UTS-2: My Songs for You** | Orisinalitas, Emosi, Refleksi, Gaya | **5.00** | **A** | Lagu dijadikan refleksi perjuangan hidup. |
-| 📖 **UTS-3: My Stories for You** | Struktur, Emosi, Refleksi, Orisinalitas | **5.00** | **A** | Cerita perjalanan diri yang menyentuh dan jujur. |
-| 🧠 **UTS-4: My SHAPE** | SHAPE, Koherensi, Keaslian, Inspirasi | **5.00** | **A** | Piagam diri yang matang dan autentik. |
+| 🧩 **UTS-1: All About Me** | Orisinalitas, Emosi, Humor, Insight | **4.9** | **A** | Penuh karakter, jujur, dan reflektif. |
+| 🎵 **UTS-2: My Songs for You** | Orisinalitas, Emosi, Refleksi, Gaya | **4.9** | **A** | Lagu dijadikan refleksi perjuangan hidup. |
+| 📖 **UTS-3: My Stories for You** | Struktur, Emosi, Refleksi, Orisinalitas | **4.9** | **A** | Cerita perjalanan diri yang menyentuh dan jujur. |
+| 🧠 **UTS-4: My SHAPE** | SHAPE, Koherensi, Keaslian, Inspirasi | **4.9** | **A** | Piagam diri yang matang dan autentik. |
 
-**💯 Nilai Akhir Keseluruhan: 20 / 20 — (100%) — A (Sangat Baik)**  
-> “Tulisan yang tidak hanya menjawab tugas, tapi juga menggambarkan perjalanan hidup dengan kedalaman dan kejujuran.”
+**💯 Nilai Akhir Keseluruhan: 19.6 / 20 — (98%) — A (Sangat Baik)**  
+> “Tulisan yang tidak hanya menjawab tugas, tapi menggambarkan perjalanan hidup dengan kedalaman dan kejujuran.”
