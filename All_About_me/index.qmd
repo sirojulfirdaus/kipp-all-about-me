@@ -1,5 +1,5 @@
 # UTS-1 All About Me
-![About Me](../images/AZRL.png){width=950%}
+![](../images/AZRL.png){width="400px"}
 
 ## Sebuah Awal yang Tidak Manis
 

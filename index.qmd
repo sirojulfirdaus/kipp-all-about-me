@@ -4,9 +4,9 @@ page-layout: full
 toc: false
 number-sections: false 
 ---
-::: {style="text-align: center;"}
+::: {style="text-align:"}
 
-![Sirojul Firdaus](images/AZRL.png){.img-circle width="300px"}
+![](images/headerkipp.png){.img-circle width="590px"}
 
 :::
 ::: {.content-column}
