@@ -3,7 +3,7 @@
 **Menggugat Mitos "Dokter Dewa": Saatnya AI Memberdayakan 4,5 Miliar Manusia**
 
 
-## I. Krisis Narasi: Ketika Sehat Menjadi Hak Istimewa
+## 1. Krisis Narasi: Ketika Sehat Menjadi Hak Istimewa
 
 Aku tumbuh dengan sebuah ketakutan yang mungkin juga dirasakan jutaan orang lain yang berangkat dari kondisi "minus": takut sakit. Bukan karena rasa sakit fisiknya, tapi karena **biayanya**.
 
@@ -11,7 +11,7 @@ Di lingkungan masa kecilku, pergi ke dokter adalah opsi terakhir—saat obat war
 
 **Ini adalah opini terbesarku:** Model "Sick Care" (Perawatan Orang Sakit) yang kita agungkan saat ini sudah usang. [cite_start]Ia boros energi (*High-Entropy*)[cite: 3]. Ia menunggu orang jatuh (sakit parah) baru ditolong. Akibatnya? Seperti data yang kubaca, 4,5 miliar orang tidak terlayani dan ratusan juta jatuh miskin. Ini bukan sekadar krisis medis, ini adalah krisis **distribusi pengetahuan** dan **koordinasi**.
 
-## II. Ketakutan yang Salah Alamat pada AI
+## 2. Ketakutan yang Salah Alamat pada AI
 
 Hari ini, dunia sibuk berdebat: *"Apakah AI akan menggantikan dokter?"*
 Bagiku, itu pertanyaan orang yang perutnya kenyang.
@@ -22,7 +22,7 @@ Opini saya jelas: **Ketakutan bahwa AI akan "mendewakan mesin" adalah salah alam
 
 AI, dalam pandangan **"My Masterpiece"**, adalah alat **demokratisasi**. [cite_start]Ia adalah *Knowledge Marketplace* [cite: 20] yang berjalan. Ia memecah monopoli pengetahuan medis yang rumit menjadi saran praktis yang bisa dipahami oleh siapa saja. AI tidak menggantikan empati manusia; ia justru membebaskan tenaga medis dari tugas-tugas administratif dan analitis yang melelahkan, sehingga mereka bisa kembali melakukan hal yang tak bisa dilakukan mesin: **menjadi manusia yang peduli**.
 
-## III. Dari Pasien Pasif Menjadi "Protagonis-Penulis"
+## 3. Dari Pasien Pasif Menjadi "Protagonis-Penulis"
 
 Perubahan drastis yang harus kita terapkan bukan sekadar menambah jumlah rumah sakit, tapi mengubah **mindset**.
 
