@@ -2,12 +2,12 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.8.24">
+<meta name="generator" content="quarto-1.8.25">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>9&nbsp; UAS-4 My Knowledge – Armein Z. R. Langi</title>
+<title>UAS-4 My Knowledge – Sirojul Firdaus</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -39,10 +39,14 @@ ul.task-list li input[type="checkbox"] {
 <script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="../site_libs/quarto-html/anchor.min.js"></script>
 <link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../site_libs/quarto-html/quarto-syntax-highlighting-dc55a5b9e770e841cd82e46aadbfb9b0.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-7b89279ff1a6dce999919e0e67d4d9ec.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-dark-707d8167ce6003fca903bfe2be84ab7f.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-7b89279ff1a6dce999919e0e67d4d9ec.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
 <script src="../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../site_libs/bootstrap/bootstrap-70a47bd5681a7291082a5b9f83d58762.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-e5e25de8c0c1a53dda01b17a6ae52c93.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-dark-3a7149e7dc4e5c67379efab455f88f3e.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<link href="../site_libs/bootstrap/bootstrap-e5e25de8c0c1a53dda01b17a6ae52c93.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "sidebar",
   "copy-button": false,
@@ -74,7 +78,169 @@ ul.task-list li input[type="checkbox"] {
 
 </head>
 
-<body class="nav-sidebar floating quarto-light">
+<body class="nav-sidebar floating quarto-light"><script id="quarto-html-before-body" type="application/javascript">
+    const toggleBodyColorMode = (bsSheetEl) => {
+      const mode = bsSheetEl.getAttribute("data-mode");
+      const bodyEl = window.document.querySelector("body");
+      if (mode === "dark") {
+        bodyEl.classList.add("quarto-dark");
+        bodyEl.classList.remove("quarto-light");
+      } else {
+        bodyEl.classList.add("quarto-light");
+        bodyEl.classList.remove("quarto-dark");
+      }
+    }
+    const toggleBodyColorPrimary = () => {
+      const bsSheetEl = window.document.querySelector("link#quarto-bootstrap:not([rel=disabled-stylesheet])");
+      if (bsSheetEl) {
+        toggleBodyColorMode(bsSheetEl);
+      }
+    }
+    const setColorSchemeToggle = (alternate) => {
+      const toggles = window.document.querySelectorAll('.quarto-color-scheme-toggle');
+      for (let i=0; i < toggles.length; i++) {
+        const toggle = toggles[i];
+        if (toggle) {
+          if (alternate) {
+            toggle.classList.add("alternate");
+          } else {
+            toggle.classList.remove("alternate");
+          }
+        }
+      }
+    };
+    const toggleColorMode = (alternate) => {
+      // Switch the stylesheets
+      const primaryStylesheets = window.document.querySelectorAll('link.quarto-color-scheme:not(.quarto-color-alternate)');
+      const alternateStylesheets = window.document.querySelectorAll('link.quarto-color-scheme.quarto-color-alternate');
+      manageTransitions('#quarto-margin-sidebar .nav-link', false);
+      if (alternate) {
+        // note: dark is layered on light, we don't disable primary!
+        enableStylesheet(alternateStylesheets);
+        for (const sheetNode of alternateStylesheets) {
+          if (sheetNode.id === "quarto-bootstrap") {
+            toggleBodyColorMode(sheetNode);
+          }
+        }
+      } else {
+        disableStylesheet(alternateStylesheets);
+        enableStylesheet(primaryStylesheets)
+        toggleBodyColorPrimary();
+      }
+      manageTransitions('#quarto-margin-sidebar .nav-link', true);
+      // Switch the toggles
+      setColorSchemeToggle(alternate)
+      // Hack to workaround the fact that safari doesn't
+      // properly recolor the scrollbar when toggling (#1455)
+      if (navigator.userAgent.indexOf('Safari') > 0 && navigator.userAgent.indexOf('Chrome') == -1) {
+        manageTransitions("body", false);
+        window.scrollTo(0, 1);
+        setTimeout(() => {
+          window.scrollTo(0, 0);
+          manageTransitions("body", true);
+        }, 40);
+      }
+    }
+    const disableStylesheet = (stylesheets) => {
+      for (let i=0; i < stylesheets.length; i++) {
+        const stylesheet = stylesheets[i];
+        stylesheet.rel = 'disabled-stylesheet';
+      }
+    }
+    const enableStylesheet = (stylesheets) => {
+      for (let i=0; i < stylesheets.length; i++) {
+        const stylesheet = stylesheets[i];
+        if(stylesheet.rel !== 'stylesheet') { // for Chrome, which will still FOUC without this check
+          stylesheet.rel = 'stylesheet';
+        }
+      }
+    }
+    const manageTransitions = (selector, allowTransitions) => {
+      const els = window.document.querySelectorAll(selector);
+      for (let i=0; i < els.length; i++) {
+        const el = els[i];
+        if (allowTransitions) {
+          el.classList.remove('notransition');
+        } else {
+          el.classList.add('notransition');
+        }
+      }
+    }
+    const isFileUrl = () => {
+      return window.location.protocol === 'file:';
+    }
+    const hasAlternateSentinel = () => {
+      let styleSentinel = getColorSchemeSentinel();
+      if (styleSentinel !== null) {
+        return styleSentinel === "alternate";
+      } else {
+        return false;
+      }
+    }
+    const setStyleSentinel = (alternate) => {
+      const value = alternate ? "alternate" : "default";
+      if (!isFileUrl()) {
+        window.localStorage.setItem("quarto-color-scheme", value);
+      } else {
+        localAlternateSentinel = value;
+      }
+    }
+    const getColorSchemeSentinel = () => {
+      if (!isFileUrl()) {
+        const storageValue = window.localStorage.getItem("quarto-color-scheme");
+        return storageValue != null ? storageValue : localAlternateSentinel;
+      } else {
+        return localAlternateSentinel;
+      }
+    }
+    const toggleGiscusIfUsed = (isAlternate, darkModeDefault) => {
+      const baseTheme = document.querySelector('#giscus-base-theme')?.value ?? 'light';
+      const alternateTheme = document.querySelector('#giscus-alt-theme')?.value ?? 'dark';
+      let newTheme = '';
+      if(authorPrefersDark) {
+        newTheme = isAlternate ? baseTheme : alternateTheme;
+      } else {
+        newTheme = isAlternate ? alternateTheme : baseTheme;
+      }
+      const changeGiscusTheme = () => {
+        // From: https://github.com/giscus/giscus/issues/336
+        const sendMessage = (message) => {
+          const iframe = document.querySelector('iframe.giscus-frame');
+          if (!iframe) return;
+          iframe.contentWindow.postMessage({ giscus: message }, 'https://giscus.app');
+        }
+        sendMessage({
+          setConfig: {
+            theme: newTheme
+          }
+        });
+      }
+      const isGiscussLoaded = window.document.querySelector('iframe.giscus-frame') !== null;
+      if (isGiscussLoaded) {
+        changeGiscusTheme();
+      }
+    };
+    const authorPrefersDark = false;
+    const darkModeDefault = authorPrefersDark;
+      document.querySelector('link#quarto-text-highlighting-styles.quarto-color-scheme-extra').rel = 'disabled-stylesheet';
+      document.querySelector('link#quarto-bootstrap.quarto-color-scheme-extra').rel = 'disabled-stylesheet';
+    let localAlternateSentinel = darkModeDefault ? 'alternate' : 'default';
+    // Dark / light mode switch
+    window.quartoToggleColorScheme = () => {
+      // Read the current dark / light value
+      let toAlternate = !hasAlternateSentinel();
+      toggleColorMode(toAlternate);
+      setStyleSentinel(toAlternate);
+      toggleGiscusIfUsed(toAlternate, darkModeDefault);
+      window.dispatchEvent(new Event('resize'));
+    };
+    // Switch to dark mode if need be
+    if (hasAlternateSentinel()) {
+      toggleColorMode(true);
+    } else {
+      toggleColorMode(false);
+    }
+  </script>
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
@@ -83,7 +249,7 @@ ul.task-list li input[type="checkbox"] {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../My_Knowledge/index.html"><span class="chapter-number">9</span>&nbsp; <span class="chapter-title">UAS-4 My Knowledge</span></a></li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../My_Concepts/index.html">Tugas Akhir Semester (UAS)</a></li><li class="breadcrumb-item"><a href="../My_Knowledge/index.html"><span class="chapter-title">UAS-4 My Knowledge</span></a></li></ol></nav>
         <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
       <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
@@ -100,7 +266,10 @@ ul.task-list li input[type="checkbox"] {
       <a href="../index.html" class="sidebar-logo-link">
       </a>
     <div class="sidebar-title mb-0 py-0">
-      <a href="../">Armein Z. R. Langi</a> 
+      <a href="../">Sirojul Firdaus</a> 
+        <div class="sidebar-tools-main">
+  <a href="" class="quarto-color-scheme-toggle quarto-navigation-tool  px-1" onclick="window.quartoToggleColorScheme(); return false;" title="Toggle dark mode"><i class="bi"></i></a>
+</div>
     </div>
       </div>
         <div class="mt-2 flex-shrink-0 align-items-center">
@@ -112,96 +281,128 @@ ul.task-list li input[type="checkbox"] {
     <ul class="list-unstyled mt-1">
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../index.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Selamat Berjumpa</span></a>
+  <a href="../index.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Salam Hangat</span></a>
   </div>
 </li>
-        <li class="sidebar-item">
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="false">
+ <span class="menu-text">Tugas Tengah Semester (UTS)</span></a>
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="false" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 ">  
+          <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../All_About_me/index.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">UTS-1 All About Me</span></span></a>
+  <a href="../All_About_me/index.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">UTS-1 All About Me</span></a>
   </div>
 </li>
-        <li class="sidebar-item">
+          <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../My_Song_for_You/index.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">UTS-2 My Songs for You</span></span></a>
+  <a href="../My_Song_for_You/index.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">UTS-2 My Songs for You</span></a>
   </div>
 </li>
-        <li class="sidebar-item">
+          <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../My_Stories_for_You/index.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">UTS-3 My Stories for You</span></span></a>
+  <a href="../My_Stories_for_You/index.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">UTS-3 My Stories for You</span></a>
   </div>
 </li>
-        <li class="sidebar-item">
+          <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../My_Shapes/index.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">UTS-4 My SHAPE (Spiritual Gifts, Heart, Abilities, Personality, Experiences)</span></span></a>
+  <a href="../My_Shapes/index.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">UTS-4 My SHAPE</span></a>
   </div>
 </li>
-        <li class="sidebar-item">
+          <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../My_Personal_Reviews/index.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">5</span>&nbsp; <span class="chapter-title">UTS-5 My Personal Reviews</span></span></a>
+  <a href="../My_Personal_Reviews/index.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">UTS-5 My Personal Reviews</span></a>
   </div>
 </li>
-        <li class="sidebar-item">
+      </ul>
+  </li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" role="navigation" aria-expanded="true">
+ <span class="menu-text">Tugas Akhir Semester (UAS)</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" role="navigation" aria-expanded="true" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-2" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../My_Concepts/index.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">6</span>&nbsp; <span class="chapter-title">UAS-1 My Concepts</span></span></a>
+  <a href="../My_Concepts/index.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">UAS-1 My Concepts</span></a>
   </div>
 </li>
-        <li class="sidebar-item">
+          <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../My_Opinions/index.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">7</span>&nbsp; <span class="chapter-title">UAS-3 My Opinions</span></span></a>
+  <a href="../My_Opinions/index.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">UAS-2 My Opinions</span></a>
   </div>
 </li>
-        <li class="sidebar-item">
+          <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../My_Innovations/index.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">8</span>&nbsp; <span class="chapter-title">UAS-3 My Innovations</span></span></a>
+  <a href="../My_Innovations/index.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">UAS-3 My Innovations</span></a>
   </div>
 </li>
-        <li class="sidebar-item">
+          <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../My_Knowledge/index.html" class="sidebar-item-text sidebar-link active">
- <span class="menu-text"><span class="chapter-number">9</span>&nbsp; <span class="chapter-title">UAS-4 My Knowledge</span></span></a>
+  <a href="../My_Knowledge/index.html" class="sidebar-item-text sidebar-link active"><span class="chapter-title">UAS-4 My Knowledge</span></a>
   </div>
 </li>
-        <li class="sidebar-item">
+          <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../My_Professional_Reviews/index.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">10</span>&nbsp; <span class="chapter-title">UAS-5 My Professional Reviews</span></span></a>
+  <a href="../My_Professional_Reviews/index.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">UAS-5 My Professional Reviews</span></a>
   </div>
 </li>
-        <li class="sidebar-item">
+      </ul>
+  </li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" role="navigation" aria-expanded="false">
+ <span class="menu-text">Penutup</span></a>
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" role="navigation" aria-expanded="false" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-3" class="collapse list-unstyled sidebar-section depth1 ">  
+          <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../summary.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">11</span>&nbsp; <span class="chapter-title">Summary</span></span></a>
+  <a href="../summary.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Summary</span></a>
   </div>
 </li>
-        <li class="sidebar-item">
+          <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../references.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">References</span></a>
   </div>
 </li>
+      </ul>
+  </li>
     </ul>
     </div>
-</nav>
+<div class="quarto-sidebar-footer"><div class="sidebar-footer-item">
+<p>© 2025 Sirojul Firdaus</p>
+</div></div></nav>
 <div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
-        
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">Di halaman ini</h2>
+   
+  <ul>
+  <li><a href="#peta-pengetahuan-arsitektur-astf-kesehatan" id="toc-peta-pengetahuan-arsitektur-astf-kesehatan" class="nav-link active" data-scroll-target="#peta-pengetahuan-arsitektur-astf-kesehatan">1. Peta Pengetahuan: Arsitektur ASTF Kesehatan</a></li>
+  <li><a href="#proses-validasi-w-model-rantai-picoc" id="toc-proses-validasi-w-model-rantai-picoc" class="nav-link" data-scroll-target="#proses-validasi-w-model-rantai-picoc">2. Proses Validasi: W-Model &amp; Rantai PICOC</a></li>
+  <li><a href="#resolusi-paradoks-anti-passive-constraint" id="toc-resolusi-paradoks-anti-passive-constraint" class="nav-link" data-scroll-target="#resolusi-paradoks-anti-passive-constraint">3. Resolusi Paradoks: “Anti-Passive” Constraint</a></li>
+  </ul>
+</nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
-<header id="title-block-header" class="quarto-title-block default">
+
+<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../My_Concepts/index.html">Tugas Akhir Semester (UAS)</a></li><li class="breadcrumb-item"><a href="../My_Knowledge/index.html"><span class="chapter-title">UAS-4 My Knowledge</span></a></li></ol></nav>
 <div class="quarto-title">
-<h1 class="title"><span class="chapter-number">9</span>&nbsp; <span class="chapter-title">UAS-4 My Knowledge</span></h1>
+<h1 class="title"><span class="chapter-title">UAS-4 My Knowledge</span></h1>
 </div>
 
 
@@ -218,13 +419,65 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<p>Cara saya mengkomunikasikan sebuah pengatahuan sebagai petunjuk bagi orang lain 1) saya tulis <a href="Rekomendasi Presentasi Efektif(Contoh Makalah).pdf">makalah sebagai bahan utama</a> 2) lalu saya buat <a href="Contoh Transkrip Presentasi.pdf">transkrip ucapan lisan</a> 3) kemudian saya kembangkan <a href="Rekomendasi Presentasi (Contoh Slides).pdf">slide pendukung trnsskrip</a> 4) lalu saya memproduksivideo audio visual </p><div class="quarto-video ratio ratio-16x9"><iframe data-external="1" src="https://www.youtube.com/embed/ZbghfMvnPZc" title="" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe></div> <div class="quarto-video ratio ratio-16x9"><iframe data-external="1" src="https://www.youtube.com/embed/ZbghfMvnPZc" title="" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe></div><p></p>
+<p><strong>HEAL-ISE: Metodologi Kedaulatan Pengetahuan Kesehatan</strong></p>
+<p>Untuk mewujudkan Pulse-Net, sekadar merangkai kabel dan kode tidaklah cukup. Saya mengembangkan kerangka pengetahuan yang disebut <strong>HEAL-ISE</strong> (<em>Health Empowerment &amp; Agency Learning in Smart Engineering</em>). Metodologi ini dirancang untuk memecahkan “Paradoks Kesehatan Digital”.</p>
+<p>Paradoksnya adalah: <strong>Bagaimana kita memberikan kemudahan teknologi (AI) tanpa membuat manusia kehilangan kemampuan bertahan hidup (Agensi)?</strong> Jika “Dr.&nbsp;Saku” selalu memberi jawaban instan, pasien menjadi pasif dan manja. Ini berbahaya bagi mereka yang hidup di lingkungan “minus”.</p>
+<p>HEAL-ISE menjawab ini melalui struktur pengetahuan berlapis dan desain agen yang pedagogis.</p>
+<section id="peta-pengetahuan-arsitektur-astf-kesehatan" class="level3">
+<h3 class="anchored" data-anchor-id="peta-pengetahuan-arsitektur-astf-kesehatan">1. Peta Pengetahuan: Arsitektur ASTF Kesehatan</h3>
+<p>Pengetahuan dalam Pulse-Net tidak acak, melainkan tersusun rapi dalam lapisan <strong>ASTF</strong> (Application, System, Technology, Fundamental) <sup>3</sup>:</p>
+<ul>
+<li><strong>Lapisan Aplikasi (A):</strong> Ini adalah ujung tombak—realitas di lapangan. Pengetahuannya berupa <strong>Studi Kasus Nyata</strong>: seorang ibu di desa yang anaknya demam tinggi, atau wabah diare lokal. Di sini, ukurannya adalah <em>Outcome</em> keselamatan nyawa.</li>
+<li><strong>Lapisan Sistem (S):</strong> Ini adalah <strong>Teater Kerja Pulse-Net</strong> itu sendiri. Pengetahuannya mencakup orkestrasi alur data antara desa dan cloud, protokol keamanan privasi, dan mekanisme distribusi obat.</li>
+<li><strong>Lapisan Teknologi (T):</strong> Ini adalah mesin di balik layar. Pengetahuannya meliputi algoritma <strong>PUDAL</strong>, sensor IoT medis, dan <em>Cloud Computing</em>.</li>
+<li><strong>Lapisan Fundamental (F):</strong> Ini adalah akarnya. Pengetahuannya bukan soal kode, tapi prinsip dasar: <strong>Fisiologi Manusia</strong>, <strong>Empati (AQ)</strong>, dan <strong>Hukum Kekekalan Energon</strong> (bagaimana biaya kesehatan dikonversi menjadi nilai). Tanpa memahami “F”, teknologi “T” akan buta arah.</li>
+</ul>
+</section>
+<section id="proses-validasi-w-model-rantai-picoc" class="level3">
+<h3 class="anchored" data-anchor-id="proses-validasi-w-model-rantai-picoc">2. Proses Validasi: W-Model &amp; Rantai PICOC</h3>
+<p>Bagaimana saya tahu inovasi ini valid? Saya tidak menggunakan metode <em>trial-error</em>, melainkan <strong>W-Model</strong> <sup>3</sup> dengan validasi <strong>PICOC</strong> (<em>Purpose, Input, Constraints, Outcome, Criteria</em>) yang ketat.</p>
+<ul>
+<li><p><strong>Turun ke Bawah (De-konstruksi):</strong> Saya mulai dari masalah nyata di desa (Aplikasi), lalu membedahnya: Sistem apa yang dibutuhkan? (Sistem), Teknologi apa yang mendukung? (Teknologi), dan Prinsip biologis/ekonomi apa yang mendasarinya? (Fundamental). Ini memastikan solusi saya berakar kuat, bukan gimik canggih semata.</p></li>
+<li><p><strong>Naik ke Atas (Re-konstruksi &amp; Validasi):</strong> Di sinilah pembuktian terjadi. Saya harus membuktikan validitas di setiap lapisan:</p>
+<ul>
+<li><strong>Validasi F:</strong> Apakah prinsip triase ini sesuai standar medis WHO?</li>
+<li><strong>Validasi T:</strong> Apakah sensor detak jantung akurat dan algoritma PUDAL bebas bias?</li>
+<li><strong>Validasi S:</strong> Apakah Pulse-Net bisa menangani 1.000 permintaan bersamaan tanpa <em>crash</em>?</li>
+<li><strong>Validasi A:</strong> Apakah pasien benar-benar sembuh dan merasa berdaya?</li>
+</ul></li>
+</ul>
+</section>
+<section id="resolusi-paradoks-anti-passive-constraint" class="level3">
+<h3 class="anchored" data-anchor-id="resolusi-paradoks-anti-passive-constraint">3. Resolusi Paradoks: “Anti-Passive” Constraint</h3>
+<p>Inilah inti dari “Knowledge” saya yang paling personal.</p>
+<p>Dalam merancang Agen PUDAL (“Dr.&nbsp;Saku”), saya menanamkan <strong>“Anti-Passive Constraint”</strong> <sup>10</sup>. Artinya: Agen <strong>dilarang</strong> sekadar memberikan “resep instan” tanpa konteks. Sebaliknya, ia <strong>diwajibkan</strong> untuk melakukan <em>scaffolding</em> (perancah) edukasi.</p>
+<ul>
+<li><p><em>Skenario Salah (Passive):</em> Pasien: “Saya pusing.” AI: “Minum obat X.” (Ini mematikan agensi).</p></li>
+<li><p><em>Skenario HEAL-ISE (Agentic):</em> Pasien: “Saya pusing.” Dr.&nbsp;Saku: “Mari kita cek. Apakah pusingnya berputar atau berat? Berapa tekanan darah terakhirmu? Ini mungkin karena dehidrasi seperti minggu lalu. Coba minum air dulu dan ukur lagi.”</p></li>
+</ul>
+<p>Dengan cara ini, teknologi tidak menggantikan otak manusia, tetapi <strong>memprovokasi Penalaran Otobiografis</strong>. Pasien diajak untuk mengenali tubuhnya sendiri, memahami pola kesehatannya, dan menjadi <strong>Protagonis-Penulis</strong> dalam cerita kesembuhan mereka.</p>
+<p>Bagi saya, pengetahuan sejati bukanlah tentang seberapa canggih alat yang kita pegang, tapi seberapa paham kita saat menggunakannya. Pulse-Net bukan hanya alat penyembuh, tapi sekolah kehidupan.</p>
+<p>✨ <em>End of UAS-4 “My Knowledge” – Sirojul Firdaus</em> ✨</p>
 
 
+</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
+    // Ensure there is a toggle, if there isn't float one in the top right
+    if (window.document.querySelector('.quarto-color-scheme-toggle') === null) {
+      const a = window.document.createElement('a');
+      a.classList.add('top-right');
+      a.classList.add('quarto-color-scheme-toggle');
+      a.href = "";
+      a.onclick = function() { try { window.quartoToggleColorScheme(); } catch {} return false; };
+      const i = window.document.createElement("i");
+      i.classList.add('bi');
+      a.appendChild(i);
+      window.document.body.appendChild(a);
+    }
+    setColorSchemeToggle(hasAlternateSentinel())
     const icon = "";
     const anchorJS = new window.AnchorJS();
     anchorJS.options = {
@@ -626,12 +879,12 @@ ul.task-list li input[type="checkbox"] {
 <nav class="page-navigation">
   <div class="nav-page nav-page-previous">
       <a href="../My_Innovations/index.html" class="pagination-link" aria-label="UAS-3 My Innovations">
-        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-number">8</span>&nbsp; <span class="chapter-title">UAS-3 My Innovations</span></span>
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-title">UAS-3 My Innovations</span></span>
       </a>          
   </div>
   <div class="nav-page nav-page-next">
       <a href="../My_Professional_Reviews/index.html" class="pagination-link" aria-label="UAS-5 My Professional Reviews">
-        <span class="nav-page-text"><span class="chapter-number">10</span>&nbsp; <span class="chapter-title">UAS-5 My Professional Reviews</span></span> <i class="bi bi-arrow-right-short"></i>
+        <span class="nav-page-text"><span class="chapter-title">UAS-5 My Professional Reviews</span></span> <i class="bi bi-arrow-right-short"></i>
       </a>
   </div>
 </nav>
