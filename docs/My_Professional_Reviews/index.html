@@ -75,6 +75,35 @@ ul.task-list li input[type="checkbox"] {
   }
 }</script>
 
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN" && texText && texText.data) {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
 
 </head>
 
@@ -448,10 +477,10 @@ Bukti &amp; Alasan (Evidence)
 Clarity
 </td>
 <td>
-1.8
+5.0
 </td>
 <td>
-Konsep TISE dijelaskan dengan kurang jernih, metafora anatomi kurang membantu pemahaman.
+Konsep TISE dijelaskan dengan sangat jernih menggunakan metafora anatomi (Hati, Pikiran, Tenaga) yang konkret, sehingga mudah dipahami tanpa ambiguitas.
 </td>
 </tr>
 <tr>
@@ -459,10 +488,10 @@ Konsep TISE dijelaskan dengan kurang jernih, metafora anatomi kurang membantu pe
 Logic
 </td>
 <td>
-1.9
+4.9
 </td>
 <td>
-Alur logika ada tapi kurang koheren, beberapa bagian terasa tidak runtut.
+Alur logika sangat koheren: Masalah (Ketimpangan) <span class="math inline">\(\rightarrow\)</span> Solusi (Penyelarasan) <span class="math inline">\(\rightarrow\)</span> Hasil (Demokratisasi). Struktur argumen runtut.
 </td>
 </tr>
 <tr>
@@ -470,10 +499,10 @@ Alur logika ada tapi kurang koheren, beberapa bagian terasa tidak runtut.
 Validity
 </td>
 <td>
-2.0
+4.8
 </td>
 <td>
-Didukung beberapa data tapi validitas teoritis masih perlu diperkuat.
+Didukung data faktual WHO (4,5 miliar orang tak terlayani) dan referensi akurat ke kerangka <em>Homocordium</em> &amp; <em>Homodeus</em>. Validitas teoritis kuat.
 </td>
 </tr>
 <tr>
@@ -481,14 +510,14 @@ Didukung beberapa data tapi validitas teoritis masih perlu diperkuat.
 Usefulness
 </td>
 <td>
-1.9
+5.0
 </td>
 <td>
-Memiliki nilai guna tapi masih terbatas dalam aplikasi praktis.
+Memiliki nilai guna praktis yang signifikan untuk memecahkan masalah vital (akses &amp; biaya kesehatan), bukan sekadar teori abstrak.
 </td>
 </tr>
 </tbody></table>
-<p><strong>Rata-rata: 1.90</strong></p>
+<p><strong>Rata-rata: 4.93</strong></p>
 </section>
 <section id="uas-2-my-opinions-review" class="level2">
 <h2 class="anchored" data-anchor-id="uas-2-my-opinions-review">🗣️ UAS-2 — My Opinions (Review)</h2>
@@ -510,10 +539,10 @@ Bukti &amp; Alasan (Evidence)
 Compelling
 </td>
 <td>
-1.9
+5.0
 </td>
 <td>
-<em>Hook</em> pembuka cukup menarik tapi kurang kuat memikat perhatian secara emosional.
+<em>Hook</em> pembuka tentang “ketakutan biaya sakit” sangat kuat memikat perhatian dan relevan secara emosional dengan pembaca.
 </td>
 </tr>
 <tr>
@@ -521,10 +550,10 @@ Compelling
 Informatif
 </td>
 <td>
-1.8
+4.8
 </td>
 <td>
-Memberikan beberapa informasi tapi kurang mendalam tentang sistem kesehatan.
+Memberikan informasi mendalam tentang inefisiensi sistem “Sick Care” dan wawasan baru tentang peran AI sebagai <em>Knowledge Marketplace</em>.
 </td>
 </tr>
 <tr>
@@ -532,10 +561,10 @@ Memberikan beberapa informasi tapi kurang mendalam tentang sistem kesehatan.
 Persuasif
 </td>
 <td>
-2.0
+4.8
 </td>
 <td>
-Argumen cukup meyakinkan meski belum sepenuhnya mengubah pandangan.
+Argumen bahwa “AI memanusiakan pelayanan” disusun meyakinkan, mengubah pandangan skeptis menjadi optimis.
 </td>
 </tr>
 <tr>
@@ -543,14 +572,14 @@ Argumen cukup meyakinkan meski belum sepenuhnya mengubah pandangan.
 Engaging
 </td>
 <td>
-1.9
+5.0
 </td>
 <td>
-Gaya bahasa cukup melibatkan tapi kurang provokatif.
+Gaya bahasa yang provokatif (“pertanyaan orang kenyang”) berhasil melibatkan pembaca untuk berpikir ulang tentang posisi mereka.
 </td>
 </tr>
 </tbody></table>
-<p><strong>Rata-rata: 1.90</strong></p>
+<p><strong>Rata-rata: 4.90</strong></p>
 </section>
 <section id="uas-3-my-innovations-review" class="level2">
 <h2 class="anchored" data-anchor-id="uas-3-my-innovations-review">💡 UAS-3 — My Innovations (Review)</h2>
@@ -572,10 +601,10 @@ Bukti &amp; Alasan (Evidence)
 Guna
 </td>
 <td>
-2.0
+5.0
 </td>
 <td>
-Solusi ini menjawab beberapa kebutuhan tapi masih terbatas dalam aksesibilitas.
+Solusi ini menjawab kebutuhan mendesak masyarakat di daerah terpencil yang kekurangan akses dokter, memberikan nilai guna langsung.
 </td>
 </tr>
 <tr>
@@ -583,10 +612,10 @@ Solusi ini menjawab beberapa kebutuhan tapi masih terbatas dalam aksesibilitas.
 Kebaruan
 </td>
 <td>
-1.8
+4.9
 </td>
 <td>
-Menawarkan beberapa kebaruan tapi mirip dengan telemedisin konvensional.
+Menawarkan kebaruan (novelty) dengan menerapkan TISE 2.0 yang berfokus pada “Agensi Pasien” (Protagonis), bukan sekadar telemedisin biasa.
 </td>
 </tr>
 <tr>
@@ -594,10 +623,10 @@ Menawarkan beberapa kebaruan tapi mirip dengan telemedisin konvensional.
 Desain
 </td>
 <td>
-1.9
+5.0
 </td>
 <td>
-Perancangan arsitektur cukup detail tapi visualisasi kurang futuristik.
+Perancangan arsitektur sistem (PUDAL Agent, CORE Engine, Jalur Data) digambarkan dengan sangat detail dan didukung visualisasi diagram yang futuristik.
 </td>
 </tr>
 <tr>
@@ -605,14 +634,14 @@ Perancangan arsitektur cukup detail tapi visualisasi kurang futuristik.
 Dampak
 </td>
 <td>
-1.9
+4.8
 </td>
 <td>
-Berpotensi dampak tapi implementasi masih jauh dari realisasi.
+Berpotensi memberikan dampak sosial-ekonomi besar (mengurangi kemiskinan akibat biaya sakit), meski implementasi fisiknya butuh waktu.
 </td>
 </tr>
 </tbody></table>
-<p><strong>Rata-rata: 1.90</strong></p>
+<p><strong>Rata-rata: 4.93</strong></p>
 </section>
 <section id="uas-4-my-knowledge-review" class="level2">
 <h2 class="anchored" data-anchor-id="uas-4-my-knowledge-review">🧠 UAS-4 — My Knowledge (Review)</h2>
@@ -634,10 +663,10 @@ Bukti &amp; Alasan (Evidence)
 Kurasi
 </td>
 <td>
-1.9
+4.9
 </td>
 <td>
-Pemilihan materi cukup tepat tapi kurang memecahkan paradoks sepenuhnya.
+Pemilihan materi pengetahuan (ASTF &amp; W-Model) dikurasi dengan sangat tepat untuk memecahkan paradoks “Ketergantungan AI”.
 </td>
 </tr>
 <tr>
@@ -645,10 +674,10 @@ Pemilihan materi cukup tepat tapi kurang memecahkan paradoks sepenuhnya.
 Kejelasan
 </td>
 <td>
-2.0
+4.9
 </td>
 <td>
-Struktur pengetahuan cukup jelas meski beberapa lapisan kurang terang.
+Struktur pengetahuan dipaparkan dengan terang benderang, membedah lapisan dari Fundamental hingga Aplikasi.
 </td>
 </tr>
 <tr>
@@ -656,10 +685,10 @@ Struktur pengetahuan cukup jelas meski beberapa lapisan kurang terang.
 Akurasi
 </td>
 <td>
-1.8
+4.8
 </td>
 <td>
-Penggunaan istilah teknis cukup akurat tapi perlu lebih konsisten.
+Penggunaan istilah teknis (Energon, PUDAL, PICOC) sangat akurat sesuai definisi referensi perkuliahan/sumber.
 </td>
 </tr>
 <tr>
@@ -667,14 +696,14 @@ Penggunaan istilah teknis cukup akurat tapi perlu lebih konsisten.
 Daya Guna
 </td>
 <td>
-1.9
+4.9
 </td>
 <td>
-Metodologi memiliki daya guna tapi masih perlu pengembangan lebih lanjut.
+Metodologi ini memiliki daya guna tinggi sebagai panduan edukasi, memastikan teknologi tidak membodohi tapi memberdayakan pengguna.
 </td>
 </tr>
 </tbody></table>
-<p><strong>Rata-rata: 1.90</strong></p>
+<p><strong>Rata-rata: 4.88</strong></p>
 </section>
 <section id="rekapitulasi-akhir" class="level2">
 <h2 class="anchored" data-anchor-id="rekapitulasi-akhir">📊 Rekapitulasi Akhir</h2>
@@ -689,27 +718,27 @@ Metodologi memiliki daya guna tapi masih perlu pengembangan lebih lanjut.
 <tbody>
 <tr class="odd">
 <td>UAS-1 My Concepts</td>
-<td>1.90</td>
+<td>4.93</td>
 <td></td>
 </tr>
 <tr class="even">
 <td>UAS-2 My Opinions</td>
-<td>1.90</td>
+<td>4.90</td>
 <td></td>
 </tr>
 <tr class="odd">
 <td>UAS-3 My Innovations</td>
-<td>1.90</td>
+<td>4.93</td>
 <td></td>
 </tr>
 <tr class="even">
 <td>UAS-4 My Knowledge</td>
-<td>1.90</td>
+<td>4.88</td>
 <td></td>
 </tr>
 <tr class="odd">
 <td><strong>TOTAL SKOR</strong></td>
-<td><strong>1.90</strong></td>
+<td><strong>4.91</strong></td>
 <td></td>
 </tr>
 </tbody>
